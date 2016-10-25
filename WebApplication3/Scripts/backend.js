@@ -9,14 +9,33 @@ This ffle will also be responsible for the search and onclick features of the we
 $('.clickable').draggable();
 
 function mapClick() {
-	$('.clickable').on("click",function(e){
+	$('#os').on("click",function(e){
 		// block the default hred from the imagemap area
 		e.preventDefault();
-		// What will be displayed after the onclick
-		var elementId = e.target.id;
-		$(".display").text('This is ' + elementId);
+		// Get the office number of what was clicked
+		var elementId = e.target.name;
+	    // call server and get the JSON string for that office number
+		$.ajax({
+		    url: "Default.aspx/querySQL",
+		    type: "POST",
+		    contentType: "application/JSON",
+		    data: JSON.stringify({ query: elementID, column: 'Office Number' }), // Check column name see if it matches
+		    dataType: 'json',
+		    success: function (data) {
+		        response(
+                    $.map(JSON.parse(data.d), function (item) {
+                        return {
+                            first: item.First,
+                            last: item.Last,
+                            office: item.Location,
+                            pref: item.Preferred,
+                            position: item.Position
+                        };
+                    }));
+		    }
+            
+		});
 	});
-
 }
 
 function searchName() {
@@ -27,16 +46,18 @@ function searchName() {
                 url: "Default.aspx/querySQL",
                 type: "POST",
                 contentType: "application/json",
-                data: JSON.stringify({query: document.getElementById('nameSearch').value}),
+                data: JSON.stringify({query: document.getElementById('nameSearch').value, column: 'Last Name'}),
                 dataType: 'json',
                 success: function (data) {
-                    // console.log(data);
                     response(
                         $.map(JSON.parse(data.d), function (item) {
                             return {
-                                label: item.Last,
-                                value: item.Last,
-                                gamma: item.Location
+                                label: item.First,
+                                first: item.First,
+                                last: item.Last,
+                                office: item.Location,
+                                pref: item.Preferred,
+                                position: item.Position
                             }
 
                         })
@@ -47,12 +68,7 @@ function searchName() {
 
             })
 
-        },
-        select: function(event, ui) {
-            alert(ui.item.gamma)
-    }
-
-        })
+        }})
 }
 
 
@@ -72,6 +88,29 @@ function zoomIn() {
 }
 
 
+function newSearch() {
+    $("#nameSearch").keyup(function () {
+        $(".display").text("");
+        $.ajax({
+            url: "Default.aspx/querySQL",
+            type: "POST",
+            contentType: 'application/json',
+            data: JSON.stringify({ query: document.getElementById('nameSearch').value, column: 'Last Name' }),
+            dataType: 'json',
+            success: function (data) {
+                // Heres is where we actually populate the div element with all the data
+                var jsondoc = (JSON.parse(data.d));
+                // console.log(jsondoc)
+                for (var i=0; i < jsondoc.length; i++) {
+                    $(".display").append('<p>' + (jsondoc[i].Last) + '</p>');
+                }
+            }
+        });
+    });
+
+}
+
 $(document).ready(mapClick());
 $(document).ready(searchName());
 $(document).ready(zoomIn());
+$(document).ready(newSearch());
