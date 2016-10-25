@@ -20,26 +20,39 @@ function mapClick() {
 }
 
 function searchName() {
+    $("#nameSearch").autocomplete({
+        minlength: 2,
+        source: function (request, response) {
+            $.ajax({
+                url: "Default.aspx/querySQL",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({query: document.getElementById('nameSearch').value}),
+                dataType: 'json',
+                success: function (data) {
+                    // console.log(data);
+                    response(
+                        $.map(JSON.parse(data.d), function (item) {
+                            return {
+                                label: item.Last,
+                                value: item.Last,
+                                gamma: item.Location
+                            }
 
-	$('#nameSearch').autocomplete({
-	    source: function (request, response) {
-	        $.ajax({
-	            type: 'POST',
-	            url: 'Default.aspx/getJSON',
-	            data: "{}",
-	            contentType: "application/json; charset=utf-8",
-	            dataType: "json",
-	            success: function (data) {
-	                console.log(data);
-	                response(data);
-				},
-				error: function() {
-				    alert('Something went wrong.');
-				}
-			});
-	    },
+                        })
 
-	});
+                        );
+                }
+
+
+            })
+
+        },
+        select: function(event, ui) {
+            alert(ui.item.gamma)
+    }
+
+        })
 }
 
 
