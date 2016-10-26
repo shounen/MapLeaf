@@ -212,6 +212,7 @@
     </Content>
     <Content Include="EmployeeData.csv" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="M1 Floor Plan 2-Updated %281%29.svg" />
     <Content Include="mapleleaflogo.png" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
@@ -250,6 +251,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="thumbnail_Floor-Plan-Background.jpg" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
