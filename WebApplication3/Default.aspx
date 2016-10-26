@@ -1,183 +1,186 @@
-﻿<%@ Language="C#" CodeBehind="~/Default.aspx.cs" AutoEventWireup="true" Inherits="WebApplication3._Default" %>
+﻿<%@  Language="C#" CodeBehind="~/Default.aspx.cs" AutoEventWireup="true" Inherits="WebApplication3._Default" %>
 
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<title>Maple Leaf Map Version 1</title>
+<style type="text/css">
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #06CCC6; /* Dark Blue*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
 
-		<style type="text/css">
+        /* The navigation menu links */
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+        }
 
-			body {
-				background-color: #bbdcf0;
-			}
+            /* When you mouse over the navigation links, change their color */
+            .sidenav a:hover, .offcanvas a:focus {
+                color: #f1f1f1;
+            }
 
-			.ui-autocomplete {
-				max-height: 100px;
-				max-width: inherit;
-				overflow-y: auto;
-				/* In order to prevent horizontal scrolling we turn it off */
-				overflow-x: hidden;
+        /* Position and style the close button (top right corner) */
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
 
-				
-			    border-radius: 1px;
-			    border: 1px solid #454545;
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
 
-			    position: absolute; 
-			    cursor: default; 
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
 
-			   
-			    border-radius: 10px 0 0 10px;
-		        float: left;
-		        font-size: 100%;
+            .sidenav a {
+                font-size: 18px;
+            }
+    }
 
-		        background: #E5E5FF;
-			}
+    #Button1 {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
 
-			.ui-state-focus {
-				color: white;
-				background-color: #ffffff;
-				outline: none;
+    #openbutton:hover {
+        background-color: #06CCC6;
+    }
+    #myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
 
-			}
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
-			.ui-state-hover {
-				background: #428BCA!important;
-			}
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
 
-			/* In case max-height is no supported by browser default to this */
-			* html .ui-autocomplete {
-			    height: 100px;
-			  }
+#myUL li a.header {
+    background-color: #e2e2e2; /* Add a darker background color for headers */
+    cursor: default; /* Change cursor style */
+}
 
-			#container {
-				width: 700px;
-				height: 600px;
-				/*border: 2px solid black;*/
-			}
-			#svg-id {
-				cursor: move; /* Just in case the browser does not support the move Icon*/
-				cursor: grab;
-    			cursor: -moz-grab;
-    			cursor: -webkit-grab;
-			}
-			/* When grabbing the image*/
-			#svg-id:active { 
-			    cursor: grabbing;
-			    cursor: -moz-grabbing;
-			    cursor: -webkit-grabbing;
-			}
-	
-			.display {
-				margin: 0 auto;
-				width: 10%;
-				display: block;
-			}
-			#container {
-				width: 100%;
-			}
-			.all_view {
-				
-				margin: 0 auto;
-				width: 80%;
-			}
-			.navbar {
-				background: #3b5998;
-				border: #3b5998
-			}
-			.form-control {
-				border-radius: 10px 0 0 10px;
-		        float: left;
-		        font-size: 100%;
-		        width: 60%;
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
 
-		        background: #E5E5FF;
-		        border: 0 solid #CBCBFF;
-			}
-			.btn {
-			    position: relative;
-		        border: 2px solid #7F7FFF;
-		        background-color: #7F7FFF;
-		        color: #FAFAFA;
-		        border-radius: 0 10px 10px 0;
-			}
-			.btn:hover {
-		        background-color: #A5A5FF;
-		        color: #7F7FFF;
-      		}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
-		</style>
-	</head>
+.loader {
+ border-top: 16px solid blue;
+ border-right: 16px solid red;
+ border-bottom: 16px solid blue;
+ border-left: 16px solid red;
+}
+    body {
+        background-image: url("thumbnail_Floor-Plan-Background.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+</style>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
-	<body>
+        <ul id="myUL">
+            <li><a href="#" class="header">A</a></li>
+            <li><a href="#">Adele</a></li>
+            <li><a href="#">Agnes</a></li>
 
-        <form runat="server">
-            <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True">
-            </asp:ScriptManager>
-        </form>
+            <li><a href="#" class="header">B</a></li>
+            <li><a href="#">Billy</a></li>
+            <li><a href="#">Bob</a></li>
 
-		<nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0;">
-			<div class="col-sm-3 col-md-3" style="width: 100%;">
-				<form class="navbar-form" role="search" style="width: inherit; margin-top: 0.8%;">
-				<img src="mapleleaflogo.png" style="width: 5%; ">
-					<div class="input-group" style="width: 80%; margin-left: 10%;">
+            <li><a href="#" class="header">C</a></li>
+            <li><a href="#">Calvin</a></li>
+            <li><a href="#">Christina</a></li>
+            <li><a href="#">Cindy</a></li>
+        </ul>
+    </div>
+    <span onscriptk="openNav()"></span>
+    <span id="openbutton"; style="font-size: 30px; color:white; cursor: pointer" onclick="openNav()">&#9776;</span>
 
-						<input type="text" placeholder="Search a name or place" name="nameSearch" id="nameSearch" class="form-control" style="width: 100%;">
-						<div class="input-group-btn">
-							<button id="nameSearchBtn" name="nameSearchBtn" class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-						</div>
-					</div>
-				</form>
-			</div>
-		</nav>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "500px";
+        }
 
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
 
-
-		<div class="all_view">
-			<div id="container">
-				<svg id="svg-id" xml-ns="http://www.w3.org/2000/svg" version="1.1", style="height: inherit; width: inherit; border: 2px solid black;">
-					<g>
-					  <title>background</title>
-					  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
-					  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-					   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-					  </g>
-					 </g>
-					 <g>
-					 <title>Layer 1</title>
-					  
-					 <rect class="NonClickable" id="None" height="399" width="578" y="1" x="1.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
-
-
-					 <rect class="clickable" id="Person 1" height="82" width="147" y="90" x="132.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#fff" />
-					 <rect class="clickable" id="Person 2" height="90" width="145" y="173" x="131.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#fff"  />
-					 <rect class="clickable" id="Person 3" height="89" width="145" y="83" x="280.5" stroke-width="0" stroke="#000" fill="#fff"  />
-					 <rect class="clickable" id="Person 4" height="94" width="152" y="173" x="281.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#fff" />
-
-					 <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="172" x2="425.5" y1="172" x1="130.5" stroke-width="1.5" stroke="#000" fill="none"/>
-					 <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="88" x2="279.5" y1="269" x1="279.5" stroke-width="1.5" stroke="#000" fill="none"/>
-
-					 </g>
-				</svg>
-			</div>
-		</div>
-
-		<div class="display">Click a cubicle</div>
-
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-
-		<script   src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-        <script src="Scripts/svg-pan-zoom.js"></script>
-
-		<script type="text/javascript" src="Scripts/backend.js"></script>
-
-	</body>
-
-</html>
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+</body>
