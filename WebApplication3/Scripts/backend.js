@@ -111,6 +111,6 @@ function newSearch() {
 }
 
 $(document).ready(mapClick());
-$(document).ready(searchName());
+// $(document).ready(searchName());
 $(document).ready(zoomIn());
 $(document).ready(newSearch());
