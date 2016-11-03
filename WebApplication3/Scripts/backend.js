@@ -37,7 +37,7 @@ function mapClick() {
 		});
 	});
 }
-
+/*
 function searchName() {
     $("#nameSearch").autocomplete({
         minlength: 2,
@@ -70,7 +70,7 @@ function searchName() {
 
         }})
 }
-
+**/
 
 function zoomIn() {
 
@@ -89,8 +89,8 @@ function zoomIn() {
 }
 
 function newSearch() {
-    $("#nameSearch").keyup(function () {
-        $(".display").text("");
+    $("#myInput").keyup(function () {
+        $(".nameContainer").text("");
         $.ajax({
             url: "Default.aspx/querySQL",
             type: "POST",
@@ -102,7 +102,7 @@ function newSearch() {
                 var jsondoc = (JSON.parse(data.d));
                 // console.log(jsondoc)
                 for (var i=0; i < jsondoc.length; i++) {
-                    $(".display").append('<p>' + (jsondoc[i].Last) + '</p>');
+                    $(".nameContainer").append('<li><a href="#">' + (jsondoc[i].Last) + '</a></li>');
                 }
             }
         });
