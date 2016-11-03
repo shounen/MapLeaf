@@ -73,20 +73,20 @@ function searchName() {
 
 
 function zoomIn() {
-  panZoomInstance = svgPanZoom('#svg-id', {
-    zoomEnabled: true,
-    controlIconsEnabled: true,
-    fit: true,
-    center: true,
-    minZoom: 0.1,
-    dblClickZoomEnabled: false
-  });
-  
-  // zoom out
-  panZoomInstance.zoom(0.9)
+
+        panZoomInstance = svgPanZoom('#svg-id', {
+            zoomEnabled: true,
+            controlIconsEnabled: false,
+            fit: true,
+            center: true,
+            minZoom: 0.1,
+            dblClickZoomEnabled: false
+        });
+
+        // zoom out
+        panZoomInstance.zoom(1.3)
 
 }
-
 
 function newSearch() {
     $("#nameSearch").keyup(function () {

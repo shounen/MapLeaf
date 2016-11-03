@@ -1,0 +1,203 @@
+﻿    html {
+        height: 100vh;
+    }
+      body {
+        height: 100%;
+        margin: 0;
+
+        overflow-y: hidden;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 30%; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #06CCC6; /* Light Blue*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+        /* The navigation menu links */
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+        }
+
+            /* When you mouse over the navigation links, change their color */
+            .sidenav a:hover, .offcanvas a:focus {
+                color: #f1f1f1;
+            }
+
+        /* Position and style the close button (top right corner) */
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+    }
+
+    #Button1 {
+        display: block;
+        width: 50%;
+       
+    }
+    #openbutton{
+        display:flex;
+        margin-top:0;
+        width:30px;
+        position:absolute;
+    }
+    #openbutton:hover {
+        background-color: #06CCC6;
+    }
+
+
+    #myInput {
+        background-image: url(); /* Add a search icon to input */
+        background-position: 10px 12px; /* Position the search icon */
+        background-repeat: no-repeat; /* Do not repeat the icon image */
+        width: 100%; /* Full-width */
+        font-size: 16px; /* Increase font-size */
+        padding: 12px 20px 12px 40px; /* Add some padding */
+        border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 12px; /* Add some space below the input */
+    }
+
+    #myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+ 
+    }
+
+        #myUL li a {
+            border: 1px solid #ddd; /* Add a border to all links */
+            margin-top: -1px; /* Prevent double borders */
+            background-color: #f6f6f6; /* Grey background color */
+            padding: 12px; /* Add some padding */
+            text-decoration: none; /* Remove default text underline */
+            font-size: 18px; /* Increase the font-size */
+            color: black; /* Add a black text color */
+            display: block; /* Make it into a block element to fill the whole list */
+        }
+
+            #myUL li a.header {
+                background-color: #e2e2e2; /* Add a darker background color for headers */
+                cursor: default; /* Change cursor style */
+            }
+
+            #myUL li a:hover:not(.header) {
+                background-color: #eee; /* Add a hover effect to all links, except for headers */
+            }
+
+    .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .loader {
+        border-top: 16px solid blue;
+        border-right: 16px solid red;
+        border-bottom: 16px solid blue;
+        border-left: 16px solid red;
+    }
+
+    body {
+        background-image: url("thumbnail_Floor-Plan-Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .ui-autocomplete {
+        max-height: 100px;
+        max-width: inherit;
+        overflow-y: auto;
+        /* In order to prevent horizontal scrolling we turn it off */
+        overflow-x: hidden;
+        position: absolute;
+        cursor: default;
+        float: left;
+        font-size: 100%;
+        background: #E5E5FF;
+    }
+
+    .ui-state-focus {
+        color: white;
+        background-color: #ffffff;
+        outline: none;
+    }
+
+    .ui-state-hover {
+        background: #428BCA !important;
+    }
+
+    /* In case max-height is no supported by browser default to this */
+    * html .ui-autocomplete {
+        height: 100px;
+    }
+
+    #container {
+        width: 70%;
+        height: 100%;
+        display: block;
+        padding-left:30%;
+    }
+
+    #svg-id {
+        cursor: move; /* Just in case the browser does not support the move Icon*/
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+        height: 100%;
+        width: 100%;
+    }
+        /* When grabbing the image*/
+        #svg-id:active {
+            cursor: grabbing;
+            cursor: -moz-grabbing;
+            cursor: -webkit-grabbing;
+        }
+
+    .navbar {
+        background: #3b5998;
+        border: #3b5998;
+    }

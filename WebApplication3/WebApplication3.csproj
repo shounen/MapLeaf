@@ -212,7 +212,8 @@
     </Content>
     <Content Include="EmployeeData.csv" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="M1 Floor Plan 2-Updated %281%29.svg" />
+    <Content Include="M1Floor.png" />
+    <Content Include="M1Floor.svg" />
     <Content Include="mapleleaflogo.png" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
@@ -428,6 +429,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\App_LocalResources\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
