@@ -9,13 +9,13 @@
     </head>
     <body>
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
             <ul class="nameContainer" id="myUL">
                 <li><a href="#" class="header">Person</a></li>
-                <!-- <li><a href="#">Adele</a></li>
-                <li><a href="#">Agnes</a></li> -->
+                 <li><a href="#">Adele</a></li>
+                <li><a href="#">Agnes</a></li> 
 
             </ul>
         </div>
@@ -41,7 +41,7 @@
                 document.getElementById("mySidenav").style.width = "0";
             }
         </script>
-        <!--
+        
         <script>
             function myFunction() {
                 // Declare variables
@@ -61,7 +61,7 @@
                     }
                 }
             }
-        </script> -->
+        </script> 
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
@@ -74,12 +74,12 @@
         <script type="text/javascript" src="Scripts/backend.js"></script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <!--
+        
         <script>
             document.getElementById('svg-id').addEventListener('load', function () {
                 svgPanZoom(document.getElementById('svg-id'));
             })
-        </script> -->
+        </script> 
 
     </body>
 </html>
