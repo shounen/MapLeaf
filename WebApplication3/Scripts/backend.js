@@ -9,11 +9,12 @@ This ffle will also be responsible for the search and onclick features of the we
 $('.clickable').draggable();
 
 function mapClick() {
-	$('#os').on("click",function(e){
+    $('rect').on("click", function (e) {
 		// block the default hred from the imagemap area
 		e.preventDefault();
 		// Get the office number of what was clicked
-		var elementId = e.target.name;
+		var elementID = e.target.name;
+       
 	    // call server and get the JSON string for that office number
 		$.ajax({
 		    url: "Default.aspx/querySQL",
@@ -22,6 +23,7 @@ function mapClick() {
 		    data: JSON.stringify({ query: elementID, column: 'Office Number' }), // Check column name see if it matches
 		    dataType: 'json',
 		    success: function (data) {
+		        console.log(data.d)
 		        response(
                     $.map(JSON.parse(data.d), function (item) {
                         return {
@@ -84,7 +86,7 @@ function zoomIn() {
         });
 
         // zoom out
-        panZoomInstance.zoom(1.3)
+        panZoomInstance.zoom(1.5)
 
 }
 
@@ -110,7 +112,8 @@ function newSearch() {
 
 }
 
+
 $(document).ready(mapClick());
 // $(document).ready(searchName());
-$(document).ready(zoomIn());
 $(document).ready(newSearch());
+$(document).ready(zoomIn());
