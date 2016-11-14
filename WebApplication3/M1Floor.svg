@@ -23,7 +23,7 @@
   .st19{fill:#1B507F;stroke:#00FFFF;stroke-miterlimit:10;}
   .st20{fill:none;stroke:#00FFFF;stroke-width:0.5;stroke-miterlimit:10;}
   .st21{fill:#1B507F;stroke:#00FFFF;stroke-width:0.5;stroke-miterlimit:10;}
-  .st22{fill:none;}
+  .st22{}
   .st23{display:inline;opacity:0.73;fill:#06CCC6;stroke:#06CCC6;stroke-width:2;stroke-miterlimit:10;}
   .st24{display:inline;fill:#FFFFFF;stroke:#06CCC6;stroke-width:2;stroke-miterlimit:10;}
   .st25{display:inline;fill:none;}
@@ -41,7 +41,7 @@
 </g>
 <g id="Layer_2" class="st2">
   <polygon class="st3" points="167.4,375.8 265.2,726.2 362.9,1076.7 167.4,1076.7 -28.2,1076.7 69.6,726.2  "></polygon>
-  <polygon class="st4" points="556,143.2 726.7,610.5 897.3,1077.7 556,1077.7 214.8,1077.7 385.4,610.5   "></polygon>
+  <polygon class="stos4" points="556,143.2 726.7,610.5 897.3,1077.7 556,1077.7 214.8,1077.7 385.4,610.5   "></polygon>
   <polygon class="st5" points="1106.4,395.1 1241.3,733.9 1373.3,1075.7 1109.4,1075.7 845.5,1075.7 977.5,733.9   "></polygon>
   <polygon class="st3" points="792.4,397.1 924.3,738.9 1056.3,1080.7 792.4,1080.7 528.5,1080.7 660.5,738.9  "></polygon>
   <polygon class="st5" points="1403.1,73 1520.9,576.9 1638.7,1080.7 1403.1,1080.7 1167.5,1080.7 1285.3,576.9  "></polygon>

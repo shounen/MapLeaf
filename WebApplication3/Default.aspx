@@ -13,10 +13,7 @@
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
             <ul class="nameContainer" id="myUL">
-                <li><a href="#" class="header">Person</a></li>
-                 <li><a href="#">Adele</a></li>
-                <li><a href="#">Agnes</a></li> 
-
+                Please enter a name
             </ul>
         </div>
 
@@ -51,7 +48,8 @@
   .st19{fill:#1B507F;stroke:#00FFFF;stroke-miterlimit:10;}
   .st20{fill:none;stroke:#00FFFF;stroke-width:0.5;stroke-miterlimit:10;}
   .st21{fill:#1B507F;stroke:#00FFFF;stroke-width:0.5;stroke-miterlimit:10;}
-  .st22{fill:none;}
+  .st22{fill: rgba(0, 0, 0, 0.00);} /* rgba(0, 0, 0, 0.00); */
+  .os{fill: rgba(0, 0, 0, 0.00);}
   .st23{display:inline;opacity:0.73;fill:#06CCC6;stroke:#06CCC6;stroke-width:2;stroke-miterlimit:10;}
   .st24{display:inline;fill:#FFFFFF;stroke:#06CCC6;stroke-width:2;stroke-miterlimit:10;}
   .st25{display:inline;fill:none;}
@@ -64,30 +62,11 @@
   .st32{display:inline;}
   .st33{fill:#FFFFFF;}
 </style>
-<g id="Layer_4" class="st0" data-r="check">
-  <rect x="1.2" y="-0.7" class="st1" width="1920.9" height="1080.8"></rect>
-</g>
-<g id="Layer_2" class="st2">
-  <polygon class="st3" points="167.4,375.8 265.2,726.2 362.9,1076.7 167.4,1076.7 -28.2,1076.7 69.6,726.2  "></polygon>
-  <polygon class="st4" points="556,143.2 726.7,610.5 897.3,1077.7 556,1077.7 214.8,1077.7 385.4,610.5   "></polygon>
-  <polygon class="st5" points="1106.4,395.1 1241.3,733.9 1373.3,1075.7 1109.4,1075.7 845.5,1075.7 977.5,733.9   "></polygon>
-  <polygon class="st3" points="792.4,397.1 924.3,738.9 1056.3,1080.7 792.4,1080.7 528.5,1080.7 660.5,738.9  "></polygon>
-  <polygon class="st5" points="1403.1,73 1520.9,576.9 1638.7,1080.7 1403.1,1080.7 1167.5,1080.7 1285.3,576.9  "></polygon>
-  <polygon class="st3" points="1756.1,359.1 1873.9,716.4 1991.7,1073.7 1756.1,1073.7 1520.5,1073.7 1638.3,716.4   "></polygon>
-  <polygon class="st6" points="1.5,951.2 -0.5,0.7 263,0.7   "></polygon>
-  <polygon class="st7" points="169.4,362.1 301,822.6 602.1,-0.3 270,-0.3  "></polygon>
-  <polygon class="st8" points="606.7,0.7 558,136.2 719.2,572.1 931.1,0.7  "></polygon>
-  <polygon class="st6" points="950.6,788.4 1102.7,387.7 942.3,-2.1 796.7,386.8  "></polygon>
-  <polygon class="st9" points="1244.8,719.9 951.2,-0.3 1412,-0.3  "></polygon>
-  <polygon class="st6" points="1419,0.7 1407.1,63.2 1589,837.6 1862,0.7   "></polygon>
-  <polygon class="st9" points="1920.5,831.2 1759.9,344.2 1870.7,-1.3 1920.5,0   "></polygon>
-  <rect x="1.2" y="-0.7" class="st10" width="1920.9" height="1080.8"></rect>
-</g>
-<g id="Layer_1">
-  <g>
+                     <g>
     <g>
+        <rect id="_x3C_Slice_x3E_" x="424" y="138.2" class="s" width="1443" height="843" style="fill: rgba(0, 0, 0, 0.00);"></rect>
       <path class="st11" d="M1224.9,248.8c-79.9-21.6-169.4-21.1-245,15.6c-5,2.4-10,4.9-14.6,8c1,0.1,2,0.3,3,0.4
-        c-26.8-26-53.5-52-80.3-77.9c-3.9-3.8-7.7-7.5-11.6-11.3c-1-0.9-2.6-1-3.5,0c-15,15.5-30,31-44.9,46.4
+        c-268-26-53.5-52-80.3-77.9c-3.9-3.8-7.7-7.5-11.6-11.3c-1-0.9-2.6-1-3.5,0c-15,15.5-30,31-44.9,46.4
         c-36,37.2-71.9,74.3-107.9,111.5c-43.3,44.8-86.6,89.5-129.9,134.3c-37.5,38.7-74.9,77.4-112.4,116.1
         c-12.4,12.9-24.9,25.7-37.3,38.6c-5.7,5.9-12.6,11.6-17.6,18.2c-0.2,0.3-0.5,0.5-0.8,0.8c-0.9,1-1,2.6,0,3.5
         c36.4,35.3,72.8,70.7,109.3,106c58,56.3,116.1,112.6,174.1,168.9c13.3,12.9,26.6,25.8,39.8,38.7c1,0.9,2.6,1,3.5,0
@@ -115,6 +94,33 @@
         c32.3,0.7,64.3,5.8,95.5,14.3C1226.7,254.4,1228,249.6,1224.9,248.8z"></path>
     </g>
   </g>
+<g id="Layer_4" class="st0" data-r="check">
+  <rect x="1.2" y="-0.7" class="st1" width="1920.9" height="1080.8"></rect>
+</g>
+<g id="Layer_2" class="st2">
+  <polygon class="st3" points="167.4,375.8 265.2,726.2 362.9,1076.7 167.4,1076.7 -28.2,1076.7 69.6,726.2  "></polygon>
+  <polygon class="st4" points="556,143.2 726.7,610.5 897.3,1077.7 556,1077.7 214.8,1077.7 385.4,610.5   "></polygon>
+  <polygon class="st5" points="1106.4,395.1 1241.3,733.9 1373.3,1075.7 1109.4,1075.7 845.5,1075.7 977.5,733.9   "></polygon>
+  <polygon class="st3" points="792.4,397.1 924.3,738.9 1056.3,1080.7 792.4,1080.7 528.5,1080.7 660.5,738.9  "></polygon>
+  <polygon class="st5" points="1403.1,73 1520.9,576.9 1638.7,1080.7 1403.1,1080.7 1167.5,1080.7 1285.3,576.9  "></polygon>
+  <polygon class="st3" points="1756.1,359.1 1873.9,716.4 1991.7,1073.7 1756.1,1073.7 1520.5,1073.7 1638.3,716.4   "></polygon>
+  <polygon class="st6" points="1.5,951.2 -0.5,0.7 263,0.7   "></polygon>
+  <polygon class="st7" points="169.4,362.1 301,822.6 602.1,-0.3 270,-0.3  "></polygon>
+  <polygon class="st8" points="606.7,0.7 558,136.2 719.2,572.1 931.1,0.7  "></polygon>
+  <polygon class="st6" points="950.6,788.4 1102.7,387.7 942.3,-2.1 796.7,386.8  "></polygon>
+  <polygon class="st9" points="1244.8,719.9 951.2,-0.3 1412,-0.3  "></polygon>
+  <polygon class="st6" points="1419,0.7 1407.1,63.2 1589,837.6 1862,0.7   "></polygon>
+  <polygon class="st9" points="1920.5,831.2 1759.9,344.2 1870.7,-1.3 1920.5,0   "></polygon>
+  <rect x="1.2" y="-0.7" class="st10" width="1920.9" height="1080.8"></rect>
+</g>
+
+<g id="AP_File_Room">
+  
+    <rect x="760.1" y="522.8"  id="2503" transform="matrix(0.7182 0.6958 -0.6958 0.7182 632.1234 -397.4909)" class="st22 os" width="93.5" height="117.7"></rect>
+     
+    <rect x="1151.3" y="542.4" transform="matrix(0.9966 -8.251928e-02 8.251928e-02 0.9966 -43.0093 100.2739)" class="st22 os" width="80.6" height="56"></rect>
+</g>     
+<g id="Layer_1">
   <circle class="st12" cx="910.1" cy="250.6" r="9.9"></circle>
   <path class="st11" d="M922.9,252.8l-0.8-4.6c-0.2-1,0.5-1.9,1.5-2.1l4.1-0.7c1-0.2,1.9,0.5,2.1,1.5l0.8,4.6c0.2,1-0.5,1.9-1.5,2.1
     l-4.1,0.7C924,254.4,923.1,253.7,922.9,252.8z"></path>
@@ -2653,552 +2659,551 @@
     c-0.5,0.4-0.6,1.1-0.2,1.6l1.1,1.3C978.6,392.2,979.3,392.3,979.8,391.9z"></path>
   <polyline class="st14" points="904.3,384.8 904.3,377.2 894.7,377.1  "></polyline>
   
-    <rect x="593.5" y="675" id="os" name="2340B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 649.7381 -227.2588)" class="st22" width="23.2" height="25.3"></rect>
+    <rect x="593.5" y="675"  id="2340B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 649.7381 -227.2588)" class="st22 os" width="23.2" height="25.3"></rect>
   
-    <rect x="576.3" y="693.3" id="os" name="2340D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 657.2404 -210.2401)" class="st22" width="23.2" height="24.2"></rect>
+    <rect x="576.3" y="693.3"  id="2340D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 657.2404 -210.2401)" class="st22 os" width="23.2" height="24.2"></rect>
   
-    <rect x="559.8" y="710.8" id="os" name="2340F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 664.4233 -193.9457)" class="st22" width="23.2" height="23.2"></rect>
+    <rect x="559.8" y="710.8"  id="2340F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 664.4233 -193.9457)" class="st22 os" width="23.2" height="23.2"></rect>
   
-    <rect x="542.8" y="728.5" id="os" name="2340H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 672.1281 -177.4487)" class="st22" width="24.2" height="23.2"></rect>
+    <rect x="542.8" y="728.5"  id="2340H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 672.1281 -177.4487)" class="st22 os" width="24.2" height="23.2"></rect>
   
-    <rect x="574.6" y="656.6" id="os" name="2340A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 631.6332 -219.2776)" class="st22" width="23.2" height="25.3"></rect>
+    <rect x="574.6" y="656.6"  id="2340A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 631.6332 -219.2776)" class="st22 os" width="23.2" height="25.3"></rect>
   
-    <rect x="557.4" y="674.9" id="os" name="2340C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 639.1354 -202.259)" class="st22" width="23.2" height="24.2"></rect>
+    <rect x="557.4" y="674.9"  id="2340C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 639.1354 -202.259)" class="st22 os" width="23.2" height="24.2"></rect>
   
-    <rect x="540.9" y="692.5" id="os" name="2340E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 646.3184 -185.9646)" class="st22" width="23.2" height="23.2"></rect>
+    <rect x="540.9" y="692.5"  id="2340E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 646.3184 -185.9646)" class="st22 os" width="23.2" height="23.2"></rect>
   
-    <rect x="522.2" y="709.1" id="os" name="2340G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 652.9368 -168.9888)" class="st22" width="25.3" height="23.2"></rect>
+    <rect x="522.2" y="709.1"  id="2340G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 652.9368 -168.9888)" class="st22 os" width="25.3" height="23.2"></rect>
   
-    <rect x="644.2" y="724.1" id="os" name="2336B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 698.2594 -248.6481)" class="st22" width="23.2" height="25.3"></rect>
+    <rect x="644.2" y="724.1"  id="2336B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 698.2594 -248.6481)" class="st22 os" width="23.2" height="25.3"></rect>
   
-    <rect x="626.9" y="742.4" id="os" name="2336D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 705.7616 -231.6295)" class="st22" width="23.2" height="24.2"></rect>
+    <rect x="626.9" y="742.4"  id="2336D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 705.7616 -231.6295)" class="st22 os" width="23.2" height="24.2"></rect>
   
-    <rect x="610.4" y="759.9" id="os" name="2336F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 712.9446 -215.335)" class="st22" width="23.2" height="23.2"></rect>
+    <rect x="610.4" y="759.9"  id="2336F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 712.9446 -215.335)" class="st22 os" width="23.2" height="23.2"></rect>
   
-    <rect x="593.4" y="777.7" id="os" name="2336H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 720.6494 -198.8381)" class="st22" width="24.2" height="23.2"></rect>
+    <rect x="593.4" y="777.7"  id="2336H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 720.6494 -198.8381)" class="st22 os" width="24.2" height="23.2"></rect>
   
-    <rect x="625.1" y="706.2" id="os" name="2336A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 680.5165 -240.8266)" class="st22" width="24.2" height="25.3"></rect>
+    <rect x="625.1" y="706.2"  id="2336A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 680.5165 -240.8266)" class="st22 os" width="24.2" height="25.3"></rect>
   
-    <rect x="607.9" y="724.4" id="os" name="2336C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 688.0188 -223.808)" class="st22" width="24.2" height="24.2"></rect>
+    <rect x="607.9" y="724.4"  id="2336C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 688.0188 -223.808)" class="st22 os" width="24.2" height="24.2"></rect>
   
-    <rect x="591.4" y="742" id="os" name="2336E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 695.2018 -207.5135)" class="st22" width="24.2" height="23.2"></rect>
+    <rect x="591.4" y="742"  id="2336E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 695.2018 -207.5135)" class="st22 os" width="24.2" height="23.2"></rect>
   
-    <rect x="573.6" y="759" id="os" name="2336G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 702.1823 -190.6974)" class="st22" width="25.3" height="23.2"></rect>
+    <rect x="573.6" y="759"  id="2336G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 702.1823 -190.6974)" class="st22 os" width="25.3" height="23.2"></rect>
   
-    <rect x="696.3" y="773.2" id="os" name="2334B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 747.1856 -271.081)" class="st22" width="23.2" height="25.3"></rect>
+    <rect x="696.3" y="773.2"  id="2334B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 747.1856 -271.081)" class="st22 os" width="23.2" height="25.3"></rect>
   
-    <rect x="679.1" y="791.5" id="os" name="2334D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 754.6878 -254.0623)" class="st22" width="23.2" height="24.2"></rect>
+    <rect x="679.1" y="791.5"  id="2334D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 754.6878 -254.0623)" class="st22 os" width="23.2" height="24.2"></rect>
   
-    <rect x="662.6" y="809.1" id="os" name="2334F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 761.8708 -237.7679)" class="st22" width="23.2" height="23.2"></rect>
+    <rect x="662.6" y="809.1"  id="2334F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 761.8708 -237.7679)" class="st22 os" width="23.2" height="23.2"></rect>
   
-    <rect x="645.4" y="827.2" id="os" name="2334H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 769.9376 -221.4305)" class="st22" width="25.3" height="23.2"></rect>
+    <rect x="645.4" y="827.2"  id="2334H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 769.9376 -221.4305)" class="st22 os" width="25.3" height="23.2"></rect>
   
-    <rect x="677.4" y="754.9" id="os" name="2334A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 729.0806 -263.0999)" class="st22" width="23.2" height="25.3"></rect>
+    <rect x="677.4" y="754.9"  id="2334A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 729.0806 -263.0999)" class="st22 os" width="23.2" height="25.3"></rect>
   
-    <rect x="660.2" y="773.2" id="os" name="2334C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 736.5829 -246.0812)" class="st22" width="23.2" height="24.2"></rect>
+    <rect x="660.2" y="773.2"  id="2334C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 736.5829 -246.0812)" class="st22 os" width="23.2" height="24.2"></rect>
   
-    <rect x="643.7" y="790.7" id="os" name="2334E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 743.7659 -229.7867)" class="st22" width="23.2" height="23.2"></rect>
+    <rect x="643.7" y="790.7"  id="2334E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 743.7659 -229.7867)" class="st22 os" width="23.2" height="23.2"></rect>
   
-    <rect x="625" y="807.4" id="os" name="2334G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 750.3843 -212.8109)" class="st22" width="25.3" height="23.2"></rect>
+    <rect x="625" y="807.4"  id="2334G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 750.3843 -212.8109)" class="st22 os" width="25.3" height="23.2"></rect>
   
-    <rect x="747.7" y="823.1" id="os" name="2333B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 796.431 -292.7896)" class="st22" width="23.2" height="25.3"></rect>
+    <rect x="747.7" y="823.1"  id="2333B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 796.431 -292.7896)" class="st22 os" width="23.2" height="25.3"></rect>
   
-    <rect x="730.5" y="841.4" id="os" name="2333D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 803.9333 -275.7709)" class="st22" width="23.2" height="24.2"></rect>
+    <rect x="730.5" y="841.4"  id="2333D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 803.9333 -275.7709)" class="st22 os" width="23.2" height="24.2"></rect>
   
-    <rect x="714" y="858.9" id="os" name="2333F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 811.1163 -259.4765)" class="st22" width="23.2" height="23.2"></rect>
+    <rect x="714" y="858.9"  id="2333F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 811.1163 -259.4765)" class="st22 os" width="23.2" height="23.2"></rect>
   
-    <rect x="696.9" y="876.7" id="os" name="2333H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 818.821 -242.9795)" class="st22" width="24.2" height="23.2"></rect>
+    <rect x="696.9" y="876.7"  id="2333H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 818.821 -242.9795)" class="st22 os" width="24.2" height="23.2"></rect>
   
-    <rect x="728.7" y="805.1" id="os" name="2333A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 778.6882 -284.9681)" class="st22" width="24.2" height="25.3"></rect>
+    <rect x="728.7" y="805.1"  id="2333A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 778.6882 -284.9681)" class="st22 os" width="24.2" height="25.3"></rect>
   
-    <rect x="711.4" y="823.4" id="os" name="2333C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 786.1904 -267.9494)" class="st22" width="24.2" height="24.2"></rect>
+    <rect x="711.4" y="823.4"  id="2333C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 786.1904 -267.9494)" class="st22 os" width="24.2" height="24.2"></rect>
   
-    <rect x="694.9" y="841" id="os" name="2333E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 793.3734 -251.655)" class="st22" width="24.2" height="23.2"></rect>
+    <rect x="694.9" y="841"  id="2333E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 793.3734 -251.655)" class="st22 os" width="24.2" height="23.2"></rect>
   
-    <rect x="677.1" y="858" id="os" name="2333G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 800.3539 -234.8388)" class="st22" width="25.3" height="23.2"></rect>
-  <polygon class="st22" points="802.5,810.9 785.4,795.7 805.5,775.6 822.6,790.8   "></polygon>
+    <rect x="677.1" y="858"  id="2333G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 800.3539 -234.8388)" class="st22 os" width="25.3" height="23.2"></rect>
+  <polygon class="st22 os" points="802.5,810.9 785.4,795.7 805.5,775.6 822.6,790.8   "></polygon>
   
-    <rect x="771.6" y="760.8" id="os" name="2332A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 761.1754 -327.3297)" class="st22" width="25.3" height="28.4"></rect>
+    <rect x="771.6" y="760.8"  id="2332A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 761.1754 -327.3297)" class="st22 os" width="25.3" height="28.4"></rect>
   
-    <rect x="738.8" y="729" id="os" name="2335B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 729.8198 -313.4725)" class="st22" width="25.3" height="28.4"></rect>
+    <rect x="738.8" y="729"  id="2335B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 729.8198 -313.4725)" class="st22 os" width="25.3" height="28.4"></rect>
   
-    <rect x="720.7" y="711.4" id="os" name="23335A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 712.4391 -305.8106)" class="st22" width="25.3" height="28.4"></rect>
+    <rect x="720.7" y="711.4"  id="23335A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 712.4391 -305.8106)" class="st22 os" width="25.3" height="28.4"></rect>
   
-    <rect x="686.8" y="678.1" id="os" name="2337B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 679.4881 -291.285)" class="st22" width="24.2" height="28.4"></rect>
+    <rect x="686.8" y="678.1"  id="2337B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 679.4881 -291.285)" class="st22 os" width="24.2" height="28.4"></rect>
   
-    <rect x="669.5" y="661.2" id="os" name="2337A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 662.8315 -283.9424)" class="st22" width="24.2" height="28.4"></rect>
+    <rect x="669.5" y="661.2"  id="2337A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 662.8315 -283.9424)" class="st22 os" width="24.2" height="28.4"></rect>
   
-    <rect x="645.8" y="628" id="os" name="2339B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 633.162 -277.2419)" class="st22" width="25.3" height="28.4"></rect>
+    <rect x="645.8" y="628"  id="2339B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 633.162 -277.2419)" class="st22 os" width="25.3" height="28.4"></rect>
   
-    <rect x="628.6" y="610.7" id="os" name="2339A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 616.1434 -269.7396)" class="st22" width="24.2" height="28.4"></rect>
+    <rect x="628.6" y="610.7"  id="2339A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 616.1434 -269.7396)" class="st22 os" width="24.2" height="28.4"></rect>
   
-    <rect x="661.7" y="554.2" id="os" name="2324" transform="matrix(0.7176 0.6964 -0.6964 0.7176 595.3386 -311.0705)" class="st22" width="39.2" height="49"></rect>
+    <rect x="661.7" y="554.2"  id="2324" transform="matrix(0.7176 0.6964 -0.6964 0.7176 595.3386 -311.0705)" class="st22 os" width="39.2" height="49"></rect>
   
-    <rect x="689.5" y="581.2" id="os" name="2325" transform="matrix(0.7176 0.6964 -0.6964 0.7176 622.0036 -322.8251)" class="st22" width="39.2" height="49"></rect>
+    <rect x="689.5" y="581.2"  id="2325" transform="matrix(0.7176 0.6964 -0.6964 0.7176 622.0036 -322.8251)" class="st22 os" width="39.2" height="49"></rect>
   
-    <rect x="717.6" y="608.2" id="os" name="2326" transform="matrix(0.7176 0.6964 -0.6964 0.7176 648.867 -334.9682)" class="st22" width="39.8" height="49"></rect>
+    <rect x="717.6" y="608.2"  id="2326" transform="matrix(0.7176 0.6964 -0.6964 0.7176 648.867 -334.9682)" class="st22 os" width="39.8" height="49"></rect>
   
-    <rect x="746.4" y="635.2" id="os" name="2330" transform="matrix(0.7176 0.6964 -0.6964 0.7176 676.0425 -347.0665)" class="st22" width="39.2" height="50"></rect>
+    <rect x="746.4" y="635.2"  id="2330" transform="matrix(0.7176 0.6964 -0.6964 0.7176 676.0425 -347.0665)" class="st22 os" width="39.2" height="50"></rect>
   
-    <rect x="816.9" y="705.4" id="os" name="2328" transform="matrix(0.7176 0.6964 -0.6964 0.7176 744.4698 -376.4805)" class="st22" width="39.2" height="49"></rect>
+    <rect x="816.9" y="705.4"  id="2328" transform="matrix(0.7176 0.6964 -0.6964 0.7176 744.4698 -376.4805)" class="st22 os" width="39.2" height="49"></rect>
   
-    <rect x="845.5" y="733.1" id="os" name="2329" transform="matrix(0.7176 0.6964 -0.6964 0.7176 771.848 -388.5495)" class="st22" width="39.2" height="49"></rect>
+    <rect x="845.5" y="733.1"  id="2329" transform="matrix(0.7176 0.6964 -0.6964 0.7176 771.848 -388.5495)" class="st22 os" width="39.2" height="49"></rect>
   
-    <rect x="857.2" y="644" id="os" name="2203E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 703.377 -422.8828)" class="st22" width="32" height="23.8"></rect>
+    <rect x="857.2" y="644"  id="2203E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 703.377 -422.8828)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="881.2" y="668.5" id="os" name="2203F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 727.1858 -432.7129)" class="st22" width="32" height="23.8"></rect>
+    <rect x="881.2" y="668.5"  id="2203F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 727.1858 -432.7129)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="839.6" y="662.7" id="os" name="2204A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 711.3654 -405.3693)" class="st22" width="32" height="23.8"></rect>
+    <rect x="839.6" y="662.7"  id="2204A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 711.3654 -405.3693)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="863.9" y="686.3" id="os" name="2204B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 734.7042 -415.6576)" class="st22" width="32" height="23.8"></rect>
+    <rect x="863.9" y="686.3"  id="2204B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 734.7042 -415.6576)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="904.6" y="691.2" id="os" name="2203G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 749.6269 -442.6055)" class="st22" width="32" height="23.8"></rect>
+    <rect x="904.6" y="691.2"  id="2203G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 749.6269 -442.6055)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="887.2" y="708.9" id="os" name="2204C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 756.9976 -425.4851)" class="st22" width="32" height="23.8"></rect>
+    <rect x="887.2" y="708.9"  id="2204C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 756.9976 -425.4851)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="910.3" y="731.3" id="os" name="2204D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 779.1376 -435.245)" class="st22" width="32" height="23.8"></rect>
+    <rect x="910.3" y="731.3"  id="2204D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 779.1376 -435.245)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="927.3" y="713.8" id="os" name="2203H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 771.7463 -452.012)" class="st22" width="32" height="23.8"></rect>
+    <rect x="927.3" y="713.8"  id="2203H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 771.7463 -452.012)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="887.7" y="614.4" id="os" name="2203A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 691.1443 -452.0003)" class="st22" width="30.5" height="23.8"></rect>
+    <rect x="887.7" y="614.4"  id="2203A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 691.1443 -452.0003)" class="st22 os" width="30.5" height="23.8"></rect>
   
-    <rect x="909.8" y="636.2" id="os" name="2203B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 712.7811 -461.7416)" class="st22" width="32" height="23.8"></rect>
+    <rect x="909.8" y="636.2"  id="2203B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 712.7811 -461.7416)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="935.2" y="660.3" id="os" name="2203C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 736.494 -472.0932)" class="st22" width="30.5" height="23.8"></rect>
+    <rect x="935.2" y="660.3"  id="2203C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 736.494 -472.0932)" class="st22 os" width="30.5" height="23.8"></rect>
   
-    <rect x="957.3" y="682.1" id="os" name="2203D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 758.1307 -481.8345)" class="st22" width="32" height="23.8"></rect>
+    <rect x="957.3" y="682.1"  id="2203D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 758.1307 -481.8345)" class="st22 os" width="32" height="23.8"></rect>
   
-    <rect x="960.6" y="613.6" id="os" name="2202S" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1565.0708 -371.0619)" class="st22" width="28" height="21.7"></rect>
+    <rect x="960.6" y="613.6"  id="2202S" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1565.0708 -371.0619)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="966.7" y="637.7" id="os" name="2202T" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1591.1073 -349.861)" class="st22" width="19.9" height="21.7"></rect>
+    <rect x="966.7" y="637.7"  id="2202T" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1591.1073 -349.861)" class="st22 os" width="19.9" height="21.7"></rect>
   
-    <rect x="984.7" y="613.3" id="os" name="2202M" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1587.941 -395.2374)" class="st22" width="27.7" height="21.7"></rect>
+    <rect x="984.7" y="613.3"  id="2202M" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1587.941 -395.2374)" class="st22 os" width="27.7" height="21.7"></rect>
   
-    <rect x="985.6" y="641" id="os" name="2202L" transform="matrix(6.568496e-02 0.9978 -0.9978 6.568496e-02 1584.2028 -388.266)" class="st22" width="27.7" height="21.7"></rect>
+    <rect x="985.6" y="641"  id="2202L" transform="matrix(6.568496e-02 0.9978 -0.9978 6.568496e-02 1584.2028 -388.266)" class="st22 os" width="27.7" height="21.7"></rect>
   
-    <rect x="988.2" y="668.3" id="os" name="2202K" transform="matrix(6.568496e-02 0.9978 -0.9978 6.568496e-02 1613.8916 -365.3392)" class="st22" width="27.7" height="21.7"></rect>
+    <rect x="988.2" y="668.3"  id="2202K" transform="matrix(6.568496e-02 0.9978 -0.9978 6.568496e-02 1613.8916 -365.3392)" class="st22 os" width="27.7" height="21.7"></rect>
   
-    <rect x="1017.3" y="597.5" id="os" name="2202G" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1603.7413 -443.2845)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1017.3" y="597.5"  id="2202G" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1603.7413 -443.2845)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1018.4" y="624.7" id="os" name="2202H" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1632.0291 -418.0483)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1018.4" y="624.7"  id="2202H" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1632.0291 -418.0483)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1019.7" y="653.5" id="os" name="2202I" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1661.9999 -391.5814)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1019.7" y="653.5"  id="2202I" transform="matrix(3.445091e-02 0.9994 -0.9994 3.445091e-02 1661.9999 -391.5814)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1040.9" y="606.3" id="os" name="2202F" transform="matrix(3.936657e-02 0.9992 -0.9992 3.936657e-02 1630.0652 -461.222)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1040.9" y="606.3"  id="2202F" transform="matrix(3.936657e-02 0.9992 -0.9992 3.936657e-02 1630.0652 -461.222)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1043.2" y="634.3" id="os" name="2202E" transform="matrix(3.936657e-02 0.9992 -0.9992 3.936657e-02 1660.1752 -436.6076)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1043.2" y="634.3"  id="2202E" transform="matrix(3.936657e-02 0.9992 -0.9992 3.936657e-02 1660.1752 -436.6076)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1044.4" y="662.5" id="os" name="2202D" transform="matrix(3.936657e-02 0.9992 -0.9992 3.936657e-02 1689.5454 -410.6501)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1044.4" y="662.5"  id="2202D" transform="matrix(3.936657e-02 0.9992 -0.9992 3.936657e-02 1689.5454 -410.6501)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1077.5" y="610.7" id="os" name="2133D" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1622.5642 -516.6467)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1077.5" y="610.7"  id="2133D" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1622.5642 -516.6467)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1079.8" y="639.3" id="os" name="2133E" transform="matrix(5.619280e-02 0.9984 -0.9984 5.619280e-02 1680.5981 -477.4854)" class="st22" width="26.1" height="21.7"></rect>
+    <rect x="1079.8" y="639.3"  id="2133E" transform="matrix(5.619280e-02 0.9984 -0.9984 5.619280e-02 1680.5981 -477.4854)" class="st22 os" width="26.1" height="21.7"></rect>
   
-    <rect x="1099.3" y="609.9" id="os" name="2133A" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1641.7675 -539.1611)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1099.3" y="609.9"  id="2133A" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1641.7675 -539.1611)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1102.7" y="637.4" id="os" name="2133B" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1672.302 -517.2521)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1102.7" y="637.4"  id="2133B" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1672.302 -517.2521)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1104.1" y="667.6" id="os" name="2133C" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1703.6812 -490.8952)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1104.1" y="667.6"  id="2133C" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1703.6812 -490.8952)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1081.6" y="668.4" id="os" name="2133F" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1683.9321 -467.7299)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1081.6" y="668.4"  id="2133F" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1683.9321 -467.7299)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1135.2" y="605.6" id="os" name="2135D" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1670.5358 -578.8275)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1135.2" y="605.6"  id="2135D" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1670.5358 -578.8275)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1156.6" y="604.1" id="os" name="2135A" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1688.6732 -601.5554)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1156.6" y="604.1"  id="2135A" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1688.6732 -601.5554)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1137.7" y="634.3" id="os" name="2135E" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1701.3622 -555.0027)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1137.7" y="634.3"  id="2135E" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1701.3622 -555.0027)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1159.1" y="631.7" id="os" name="2135B" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1718.5278 -578.7122)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1159.1" y="631.7"  id="2135B" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1718.5278 -578.7122)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1139.8" y="661.7" id="os" name="2135F" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1730.6899 -531.854)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1139.8" y="661.7"  id="2135F" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1730.6899 -531.854)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1161.2" y="660.6" id="os" name="2135C" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1749.3085 -554.2485)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1161.2" y="660.6"  id="2135C" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1749.3085 -554.2485)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1195.9" y="602.1" id="os" name="2134F" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1722.8195 -642.6257)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1195.9" y="602.1"  id="2134F" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1722.8195 -642.6257)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1217.3" y="599.9" id="os" name="2134A" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1740.2649 -665.9465)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1217.3" y="599.9"  id="2134A" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1740.2649 -665.9465)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1198.1" y="629.7" id="os" name="2134E" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1752.3276 -619.4693)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1198.1" y="629.7"  id="2134E" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1752.3276 -619.4693)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1219.7" y="628.1" id="os" name="2134B" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1770.5951 -642.3939)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1219.7" y="628.1"  id="2134B" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1770.5951 -642.3939)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1199.9" y="658.6" id="os" name="2134D" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1782.2855 -595.1027)" class="st22" width="28" height="20.8"></rect>
+    <rect x="1199.9" y="658.6"  id="2134D" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1782.2855 -595.1027)" class="st22 os" width="28" height="20.8"></rect>
   
-    <rect x="1221.1" y="656.3" id="os" name="2134C" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1799.9807 -617.969)" class="st22" width="28" height="21.7"></rect>
+    <rect x="1221.1" y="656.3"  id="2134C" transform="matrix(8.100901e-02 0.9967 -0.9967 8.100901e-02 1799.9807 -617.969)" class="st22 os" width="28" height="21.7"></rect>
   
-    <rect x="1275.7" y="591.2" id="os" name="2139A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 784.1793 -726.8844)" class="st22" width="25.5" height="24.8"></rect>
+    <rect x="1275.7" y="591.2"  id="2139A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 784.1793 -726.8844)" class="st22 os" width="25.5" height="24.8"></rect>
   
-    <rect x="1256.4" y="609.3" id="os" name="2138A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 791.6873 -708.2073)" class="st22" width="25.5" height="25.8"></rect>
+    <rect x="1256.4" y="609.3"  id="2138A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 791.6873 -708.2073)" class="st22 os" width="25.5" height="25.8"></rect>
   
-    <rect x="1294.9" y="609.5" id="os" name="2139B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 802.3571 -735.0942)" class="st22" width="25.5" height="24.8"></rect>
+    <rect x="1294.9" y="609.5"  id="2139B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 802.3571 -735.0942)" class="st22 os" width="25.5" height="24.8"></rect>
   
-    <rect x="1275.6" y="627.8" id="os" name="2138B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 809.9014 -716.3349)" class="st22" width="25.5" height="25.5"></rect>
+    <rect x="1275.6" y="627.8"  id="2138B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 809.9014 -716.3349)" class="st22 os" width="25.5" height="25.5"></rect>
   
-    <rect x="1313.3" y="626.3" id="os" name="2139C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 819.1995 -742.3123)" class="st22" width="23.3" height="25.6"></rect>
+    <rect x="1313.3" y="626.3"  id="2139C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 819.1995 -742.3123)" class="st22 os" width="23.3" height="25.6"></rect>
   
-    <rect x="1293.7" y="646" id="os" name="2138C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 827.0673 -723.5098)" class="st22" width="24.1" height="24.3"></rect>
+    <rect x="1293.7" y="646"  id="2138C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 827.0673 -723.5098)" class="st22 os" width="24.1" height="24.3"></rect>
   
-    <rect x="1311.1" y="662.7" id="os" name="2138D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 843.5978 -730.9011)" class="st22" width="24.1" height="24.3"></rect>
+    <rect x="1311.1" y="662.7"  id="2138D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 843.5978 -730.9011)" class="st22 os" width="24.1" height="24.3"></rect>
   
-    <rect x="1328.4" y="679.5" id="os" name="2138E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 860.1684 -738.1832)" class="st22" width="24.1" height="24.3"></rect>
+    <rect x="1328.4" y="679.5"  id="2138E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 860.1684 -738.1832)" class="st22 os" width="24.1" height="24.3"></rect>
   
-    <rect x="1329.8" y="643.4" id="os" name="2139D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 835.8326 -749.201)" class="st22" width="24.1" height="25.4"></rect>
+    <rect x="1329.8" y="643.4"  id="2139D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 835.8326 -749.201)" class="st22 os" width="24.1" height="25.4"></rect>
   
-    <rect x="1347.2" y="662" id="os" name="2139E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 853.2891 -756.2207)" class="st22" width="24.1" height="24.3"></rect>
+    <rect x="1347.2" y="662"  id="2139E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 853.2891 -756.2207)" class="st22 os" width="24.1" height="24.3"></rect>
   
-    <rect x="1345.5" y="697.9" id="os" name="2138F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 878.4416 -745.7198)" class="st22" width="26.7" height="25"></rect>
+    <rect x="1345.5" y="697.9"  id="2138F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 878.4416 -745.7198)" class="st22 os" width="26.7" height="25"></rect>
   
-    <rect x="1365" y="679.3" id="os" name="2139F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 870.3846 -763.7568)" class="st22" width="24.1" height="24.3"></rect>
+    <rect x="1365" y="679.3"  id="2139F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 870.3846 -763.7568)" class="st22 os" width="24.1" height="24.3"></rect>
   
-    <rect x="1317.2" y="576.3" id="os" name="2139G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 786.6179 -760.2253)" class="st22" width="27.3" height="27.3"></rect>
+    <rect x="1317.2" y="576.3"  id="2139G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 786.6179 -760.2253)" class="st22 os" width="27.3" height="27.3"></rect>
   
-    <rect x="1337.3" y="595.4" id="os" name="2139H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 805.4213 -768.445)" class="st22" width="26" height="27.3"></rect>
+    <rect x="1337.3" y="595.4"  id="2139H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 805.4213 -768.445)" class="st22 os" width="26" height="27.3"></rect>
   
-    <rect x="1355.5" y="612.9" id="os" name="2139I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 822.7838 -776.1682)" class="st22" width="26" height="27.3"></rect>
+    <rect x="1355.5" y="612.9"  id="2139I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 822.7838 -776.1682)" class="st22 os" width="26" height="27.3"></rect>
   
-    <rect x="1374.5" y="631.3" id="os" name="2139J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 840.963 -784.182)" class="st22" width="26" height="27.3"></rect>
+    <rect x="1374.5" y="631.3"  id="2139J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 840.963 -784.182)" class="st22 os" width="26" height="27.3"></rect>
   
-    <rect x="1393.3" y="649.7" id="os" name="2139K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 859.0916 -792.1134)" class="st22" width="26" height="27.3"></rect>
+    <rect x="1393.3" y="649.7"  id="2139K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 859.0916 -792.1134)" class="st22 os" width="26" height="27.3"></rect>
   
-    <rect x="1448.3" y="702.8" id="os" name="2137I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 911.7109 -815.0424)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1448.3" y="702.8"  id="2137I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 911.7109 -815.0424)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1466.4" y="720.3" id="os" name="2137J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 929.0143 -822.6702)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1466.4" y="720.3"  id="2137J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 929.0143 -822.6702)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1486.6" y="738.7" id="os" name="2137K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 947.4926 -831.5537)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1486.6" y="738.7"  id="2137K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 947.4926 -831.5537)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1504.6" y="756.2" id="os" name="2137L" transform="matrix(0.7176 0.6964 -0.6964 0.7176 964.7723 -839.171)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1504.6" y="756.2"  id="2137L" transform="matrix(0.7176 0.6964 -0.6964 0.7176 964.7723 -839.171)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1418.9" y="733.5" id="os" name="2137E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 924.7601 -785.8613)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1418.9" y="733.5"  id="2137E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 924.7601 -785.8613)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1436.8" y="750.9" id="os" name="2137F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 941.9083 -793.4206)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1436.8" y="750.9"  id="2137F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 941.9083 -793.4206)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1456.6" y="769.6" id="os" name="2137G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 960.5513 -801.9303)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1456.6" y="769.6"  id="2137G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 960.5513 -801.9303)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1475" y="786.9" id="os" name="2137H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 977.7756 -809.8751)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1475" y="786.9"  id="2137H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 977.7756 -809.8751)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1398" y="754.7" id="os" name="2137A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 933.6279 -765.3243)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1398" y="754.7"  id="2137A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 933.6279 -765.3243)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1415.8" y="772.7" id="os" name="2137B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 951.149 -772.6598)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1415.8" y="772.7"  id="2137B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 951.149 -772.6598)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1436.8" y="789.9" id="os" name="2137C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 969.1381 -782.4513)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1436.8" y="789.9"  id="2137C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 969.1381 -782.4513)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1455" y="807.5" id="os" name="2137D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 986.4923 -790.1014)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1455" y="807.5"  id="2137D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 986.4923 -790.1014)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1470.2" y="677.9" id="os" name="2128" transform="matrix(0.7176 0.6964 -0.6964 0.7176 904.751 -839.3425)" class="st22" width="34.4" height="36.3"></rect>
+    <rect x="1470.2" y="677.9"  id="2128" transform="matrix(0.7176 0.6964 -0.6964 0.7176 904.751 -839.3425)" class="st22 os" width="34.4" height="36.3"></rect>
   
-    <rect x="1494.1" y="701.3" id="os" name="2127" transform="matrix(0.7176 0.6964 -0.6964 0.7176 927.9582 -849.8228)" class="st22" width="35.7" height="36.3"></rect>
+    <rect x="1494.1" y="701.3"  id="2127" transform="matrix(0.7176 0.6964 -0.6964 0.7176 927.9582 -849.8228)" class="st22 os" width="35.7" height="36.3"></rect>
   
-    <rect x="1518.9" y="725.9" id="os" name="2126" transform="matrix(0.7176 0.6964 -0.6964 0.7176 951.9291 -859.7513)" class="st22" width="34.5" height="36.3"></rect>
+    <rect x="1518.9" y="725.9"  id="2126" transform="matrix(0.7176 0.6964 -0.6964 0.7176 951.9291 -859.7513)" class="st22 os" width="34.5" height="36.3"></rect>
   
-    <rect x="1569.4" y="775.9" id="os" name="2125A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 996.7591 -878.7496)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1569.4" y="775.9"  id="2125A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 996.7591 -878.7496)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1587.3" y="793.2" id="os" name="2125B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1013.9106 -886.3104)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1587.3" y="793.2"  id="2125B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1013.9106 -886.3104)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1607.3" y="811.7" id="os" name="2125C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1032.4629 -895.036)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1607.3" y="811.7"  id="2125C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1032.4629 -895.036)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1586.6" y="834" id="os" name="2136I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1042.1309 -874.3206)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1586.6" y="834"  id="2136I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1042.1309 -874.3206)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1567.2" y="814.7" id="os" name="2136H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1023.1783 -866.244)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1567.2" y="814.7"  id="2136H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1023.1783 -866.244)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1548.1" y="796.2" id="os" name="2136G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1004.903 -858.1877)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1548.1" y="796.2"  id="2136G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1004.903 -858.1877)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1673.5" y="789.8" id="os" name="2124A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1034.95 -947.948)" class="st22" width="25.9" height="25.1"></rect>
+    <rect x="1673.5" y="789.8"  id="2124A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1034.95 -947.948)" class="st22 os" width="25.9" height="25.1"></rect>
   
-    <rect x="1652.3" y="770.9" id="os" name="2124B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1016.0239 -939.4473)" class="st22" width="28.5" height="24.7"></rect>
+    <rect x="1652.3" y="770.9"  id="2124B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1016.0239 -939.4473)" class="st22 os" width="28.5" height="24.7"></rect>
   
-    <rect x="1632.4" y="751" id="os" name="2124C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 996.6081 -931.2036)" class="st22" width="28.5" height="24.7"></rect>
+    <rect x="1632.4" y="751"  id="2124C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 996.6081 -931.2036)" class="st22 os" width="28.5" height="24.7"></rect>
   
-    <rect x="1613.5" y="731.8" id="os" name="2124D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 977.6307 -922.838)" class="st22" width="26.7" height="24.7"></rect>
+    <rect x="1613.5" y="731.8"  id="2124D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 977.6307 -922.838)" class="st22 os" width="26.7" height="24.7"></rect>
   
-    <rect x="1691.6" y="770.8" id="os" name="2124H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1026.8652 -965.9833)" class="st22" width="26.2" height="25.1"></rect>
+    <rect x="1691.6" y="770.8"  id="2124H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1026.8652 -965.9833)" class="st22 os" width="26.2" height="25.1"></rect>
   
-    <rect x="1670.5" y="751.5" id="os" name="2124G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1007.8933 -957.6201)" class="st22" width="28.8" height="25.1"></rect>
+    <rect x="1670.5" y="751.5"  id="2124G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1007.8933 -957.6201)" class="st22 os" width="28.8" height="25.1"></rect>
   
-    <rect x="1650.7" y="731.7" id="os" name="2124F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 988.2952 -948.9807)" class="st22" width="27.4" height="25.1"></rect>
+    <rect x="1650.7" y="731.7"  id="2124F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 988.2952 -948.9807)" class="st22 os" width="27.4" height="25.1"></rect>
   
-    <rect x="1631.7" y="712.8" id="os" name="2124E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 969.631 -940.7531)" class="st22" width="26.4" height="25.1"></rect>
+    <rect x="1631.7" y="712.8"  id="2124E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 969.631 -940.7531)" class="st22 os" width="26.4" height="25.1"></rect>
   
-    <rect x="1718" y="740.4" id="os" name="2123A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1012.7274 -994.6583)" class="st22" width="29.9" height="22.3"></rect>
+    <rect x="1718" y="740.4"  id="2123A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1012.7274 -994.6583)" class="st22 os" width="29.9" height="22.3"></rect>
   
-    <rect x="1699" y="720.5" id="os" name="2123B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 993.15 -986.0281)" class="st22" width="27.1" height="22.3"></rect>
+    <rect x="1699" y="720.5"  id="2123B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 993.15 -986.0281)" class="st22 os" width="27.1" height="22.3"></rect>
   
-    <rect x="1679.4" y="701.5" id="os" name="2123C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 974.3721 -977.7503)" class="st22" width="27.1" height="22.3"></rect>
+    <rect x="1679.4" y="701.5"  id="2123C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 974.3721 -977.7503)" class="st22 os" width="27.1" height="22.3"></rect>
   
-    <rect x="1661.2" y="683.2" id="os" name="2123D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 956.2559 -969.7642)" class="st22" width="25.6" height="22.3"></rect>
+    <rect x="1661.2" y="683.2"  id="2123D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 956.2559 -969.7642)" class="st22 os" width="25.6" height="22.3"></rect>
   
-    <rect x="1679.7" y="664.4" id="os" name="2123E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 949.1799 -987.851)" class="st22" width="26.2" height="24.4"></rect>
+    <rect x="1679.7" y="664.4"  id="2123E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 949.1799 -987.851)" class="st22 os" width="26.2" height="24.4"></rect>
   
-    <rect x="1698.5" y="683" id="os" name="2123F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 967.5839 -995.9639)" class="st22" width="27.1" height="24.4"></rect>
+    <rect x="1698.5" y="683"  id="2123F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 967.5839 -995.9639)" class="st22 os" width="27.1" height="24.4"></rect>
   
-    <rect x="1717.8" y="702.6" id="os" name="2123G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 986.881 -1004.4705)" class="st22" width="28.8" height="24.4"></rect>
+    <rect x="1717.8" y="702.6"  id="2123G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 986.881 -1004.4705)" class="st22 os" width="28.8" height="24.4"></rect>
   
-    <rect x="1738.9" y="722.3" id="os" name="2123H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1006.3353 -1013.0464)" class="st22" width="27" height="24.4"></rect>
+    <rect x="1738.9" y="722.3"  id="2123H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1006.3353 -1013.0464)" class="st22 os" width="27" height="24.4"></rect>
   
-    <rect x="1774.4" y="686.7" id="os" name="2122A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 991.2885 -1048.3958)" class="st22" width="28.3" height="23.2"></rect>
+    <rect x="1774.4" y="686.7"  id="2122A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 991.2885 -1048.3958)" class="st22 os" width="28.3" height="23.2"></rect>
   
-    <rect x="1754.5" y="667.1" id="os" name="2122B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 972.0071 -1039.896)" class="st22" width="27.9" height="23.2"></rect>
+    <rect x="1754.5" y="667.1"  id="2122B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 972.0071 -1039.896)" class="st22 os" width="27.9" height="23.2"></rect>
   
-    <rect x="1734.6" y="647.9" id="os" name="2122C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 953.001 -1031.5176)" class="st22" width="27.9" height="23.2"></rect>
+    <rect x="1734.6" y="647.9"  id="2122C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 953.001 -1031.5176)" class="st22 os" width="27.9" height="23.2"></rect>
   
-    <rect x="1715" y="628.7" id="os" name="2122D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 934.0726 -1023.1735)" class="st22" width="27.6" height="23.2"></rect>
+    <rect x="1715" y="628.7"  id="2122D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 934.0726 -1023.1735)" class="st22 os" width="27.6" height="23.2"></rect>
   
-    <rect x="1733.4" y="611.6" id="os" name="2122E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 927.2664 -1040.5427)" class="st22" width="26.9" height="23.2"></rect>
+    <rect x="1733.4" y="611.6"  id="2122E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 927.2664 -1040.5427)" class="st22 os" width="26.9" height="23.2"></rect>
   
-    <rect x="1752.4" y="630.1" id="os" name="2122F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 945.4826 -1048.5729)" class="st22" width="26.9" height="23.2"></rect>
+    <rect x="1752.4" y="630.1"  id="2122F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 945.4826 -1048.5729)" class="st22 os" width="26.9" height="23.2"></rect>
   
-    <rect x="1771.6" y="648.7" id="os" name="2122G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 963.867 -1056.6771)" class="st22" width="26.9" height="23.2"></rect>
+    <rect x="1771.6" y="648.7"  id="2122G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 963.867 -1056.6771)" class="st22 os" width="26.9" height="23.2"></rect>
   
-    <rect x="1791.3" y="668.7" id="os" name="2122H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 983.6471 -1065.3967)" class="st22" width="28.7" height="23.2"></rect>
+    <rect x="1791.3" y="668.7"  id="2122H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 983.6471 -1065.3967)" class="st22 os" width="28.7" height="23.2"></rect>
   
-    <rect x="1685" y="562.3" id="os" name="2119L" transform="matrix(0.7176 0.6964 -0.6964 0.7176 880.0774 -1019.5345)" class="st22" width="24.5" height="26.5"></rect>
+    <rect x="1685" y="562.3"  id="2119L" transform="matrix(0.7176 0.6964 -0.6964 0.7176 880.0774 -1019.5345)" class="st22 os" width="24.5" height="26.5"></rect>
   
-    <rect x="1667.4" y="544.9" id="os" name="2119K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 863.1874 -1012.0753)" class="st22" width="24.5" height="27.1"></rect>
+    <rect x="1667.4" y="544.9"  id="2119K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 863.1874 -1012.0753)" class="st22 os" width="24.5" height="27.1"></rect>
   
-    <rect x="1651" y="528.2" id="os" name="2119J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 846.8055 -1005.0665)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1651" y="528.2"  id="2119J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 846.8055 -1005.0665)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1634.2" y="511.9" id="os" name="2119I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 830.7056 -997.9692)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1634.2" y="511.9"  id="2119I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 830.7056 -997.9692)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1665.5" y="582.6" id="os" name="2119H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 888.7997 -999.7941)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1665.5" y="582.6"  id="2119H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 888.7997 -999.7941)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1648.8" y="566.4" id="os" name="2119G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 872.7684 -992.727)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1648.8" y="566.4"  id="2119G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 872.7684 -992.727)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1630.8" y="548.9" id="os" name="2119F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 855.4991 -985.1143)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1630.8" y="548.9"  id="2119F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 855.4991 -985.1143)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1614.1" y="532.6" id="os" name="2119E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 839.4844 -978.0546)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1614.1" y="532.6"  id="2119E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 839.4844 -978.0546)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1559.1" y="480.9" id="os" name="2115J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 787.9661 -954.3947)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1559.1" y="480.9"  id="2115J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 787.9661 -954.3947)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1542.4" y="464.7" id="os" name="2115I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 771.8871 -947.3066)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1542.4" y="464.7"  id="2115I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 771.8871 -947.3066)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1525.3" y="447.9" id="os" name="2115H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 755.3031 -939.996)" class="st22" width="23" height="27.1"></rect>
+    <rect x="1525.3" y="447.9"  id="2115H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 755.3031 -939.996)" class="st22 os" width="23" height="27.1"></rect>
   
-    <rect x="1508.4" y="431.7" id="os" name="2115G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 739.312 -932.9467)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1508.4" y="431.7"  id="2115G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 739.312 -932.9467)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1490.8" y="414.1" id="os" name="2115F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 722.1352 -925.6464)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1490.8" y="414.1"  id="2115F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 722.1352 -925.6464)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1580" y="459.5" id="os" name="2115O" transform="matrix(0.7176 0.6964 -0.6964 0.7176 778.9272 -974.9453)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1580" y="459.5"  id="2115O" transform="matrix(0.7176 0.6964 -0.6964 0.7176 778.9272 -974.9453)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1563.3" y="442.5" id="os" name="2115N" transform="matrix(0.7176 0.6964 -0.6964 0.7176 762.3448 -968.1602)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1563.3" y="442.5"  id="2115N" transform="matrix(0.7176 0.6964 -0.6964 0.7176 762.3448 -968.1602)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1546.7" y="426.4" id="os" name="2115M" transform="matrix(0.7176 0.6964 -0.6964 0.7176 746.4617 -961.1585)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1546.7" y="426.4"  id="2115M" transform="matrix(0.7176 0.6964 -0.6964 0.7176 746.4617 -961.1585)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1529.6" y="409.8" id="os" name="2115L" transform="matrix(0.7176 0.6964 -0.6964 0.7176 730.0623 -953.9293)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1529.6" y="409.8"  id="2115L" transform="matrix(0.7176 0.6964 -0.6964 0.7176 730.0623 -953.9293)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1513.1" y="393.3" id="os" name="2114G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 713.9675 -947.0983)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1513.1" y="393.3"  id="2114G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 713.9675 -947.0983)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1528.3" y="526.8" id="os" name="2115E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 811.1745 -919.9756)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1528.3" y="526.8"  id="2115E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 811.1745 -919.9756)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1511.6" y="510" id="os" name="2115D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 794.7437 -913.0747)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1511.6" y="510"  id="2115D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 794.7437 -913.0747)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1494.5" y="493" id="os" name="2115C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 778.1426 -905.9686)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1494.5" y="493"  id="2115C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 778.1426 -905.9686)" class="st22 os" width="23.6" height="27.1"></rect>
   
-    <rect x="1469.4" y="473.1" id="os" name="2115B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 758.5679 -897.2336)" class="st22" width="32.7" height="27.4"></rect>
+    <rect x="1469.4" y="473.1"  id="2115B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 758.5679 -897.2336)" class="st22 os" width="32.7" height="27.4"></rect>
   
-    <rect x="1453" y="453.1" id="os" name="2115A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 738.5894 -888.3205)" class="st22" width="23.6" height="27.1"></rect>
+    <rect x="1453" y="453.1"  id="2115A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 738.5894 -888.3205)" class="st22 os" width="23.6" height="27.1"></rect>
   <path class="st11" d="M1470.1,465.7l0.6,3.5c0.2,1.1-0.6,2.1-1.6,2.2l-3.1,0.5c-1.1,0.2-2.1-0.6-2.2-1.6l-0.6-3.5
     c-0.2-1.1,0.6-2.1,1.6-2.2l3.1-0.5C1469,463.9,1470,464.6,1470.1,465.7z"></path>
   
-    <rect x="1424.7" y="475.6" id="os" name="2116" transform="matrix(0.7176 0.6964 -0.6964 0.7176 753.5388 -862.9777)" class="st22" width="32.6" height="44.4"></rect>
+    <rect x="1424.7" y="475.6"  id="2116" transform="matrix(0.7176 0.6964 -0.6964 0.7176 753.5388 -862.9777)" class="st22 os" width="32.6" height="44.4"></rect>
   
-    <rect x="1448.1" y="498.3" id="os" name="2117" transform="matrix(0.7176 0.6964 -0.6964 0.7176 775.9799 -872.8704)" class="st22" width="32.6" height="44.4"></rect>
+    <rect x="1448.1" y="498.3"  id="2117" transform="matrix(0.7176 0.6964 -0.6964 0.7176 775.9799 -872.8704)" class="st22 os" width="32.6" height="44.4"></rect>
   
-    <rect x="1472.1" y="521.3" id="os" name="2118" transform="matrix(0.7176 0.6964 -0.6964 0.7176 798.6606 -882.8686)" class="st22" width="31.9" height="44.4"></rect>
+    <rect x="1472.1" y="521.3"  id="2118" transform="matrix(0.7176 0.6964 -0.6964 0.7176 798.6606 -882.8686)" class="st22 os" width="31.9" height="44.4"></rect>
   
-    <rect x="1495.2" y="544" id="os" name="2120" transform="matrix(0.7176 0.6964 -0.6964 0.7176 821.0865 -892.7545)" class="st22" width="32.6" height="44.4"></rect>
+    <rect x="1495.2" y="544"  id="2120" transform="matrix(0.7176 0.6964 -0.6964 0.7176 821.0865 -892.7545)" class="st22 os" width="32.6" height="44.4"></rect>
   
-    <rect x="1547.1" y="592.6" id="os" name="2121" transform="matrix(0.7176 0.6964 -0.6964 0.7176 869.6125 -915.218)" class="st22" width="32.6" height="44.4"></rect>
+    <rect x="1547.1" y="592.6"  id="2121" transform="matrix(0.7176 0.6964 -0.6964 0.7176 869.6125 -915.218)" class="st22 os" width="32.6" height="44.4"></rect>
   
-    <rect x="1570.9" y="615.3" id="os" name="2124" transform="matrix(0.7176 0.6964 -0.6964 0.7176 892.0815 -925.1229)" class="st22" width="32.1" height="44.4"></rect>
+    <rect x="1570.9" y="615.3"  id="2124" transform="matrix(0.7176 0.6964 -0.6964 0.7176 892.0815 -925.1229)" class="st22 os" width="32.1" height="44.4"></rect>
   
-    <rect x="1594.2" y="638.3" id="os" name="2125" transform="matrix(0.7176 0.6964 -0.6964 0.7176 914.7192 -935.1022)" class="st22" width="32.6" height="44.4"></rect>
+    <rect x="1594.2" y="638.3"  id="2125" transform="matrix(0.7176 0.6964 -0.6964 0.7176 914.7192 -935.1022)" class="st22 os" width="32.6" height="44.4"></rect>
   
-    <rect x="1621" y="617.6" id="os" name="2119" transform="matrix(0.7176 0.6964 -0.6964 0.7176 902.2484 -961.5915)" class="st22" width="31.8" height="28.4"></rect>
+    <rect x="1621" y="617.6"  id="2119" transform="matrix(0.7176 0.6964 -0.6964 0.7176 902.2484 -961.5915)" class="st22 os" width="31.8" height="28.4"></rect>
   
-    <rect x="1597.3" y="595.2" transform="matrix(0.7176 0.6964 -0.6964 0.7176 879.9305 -951.3928)" class="st22" width="31.8" height="28.4"></rect>
+    <rect x="1597.3" y="595.2" transform="matrix(0.7176 0.6964 -0.6964 0.7176 879.9305 -951.3928)" class="st22 os" width="31.8" height="28.4"></rect>
   
-    <rect x="1575.6" y="573.6" id="os" name="2119M" transform="matrix(0.7176 0.6964 -0.6964 0.7176 858.5981 -941.989)" class="st22" width="30.7" height="28.4"></rect>
+    <rect x="1575.6" y="573.6"  id="2119M" transform="matrix(0.7176 0.6964 -0.6964 0.7176 858.5981 -941.989)" class="st22 os" width="30.7" height="28.4"></rect>
   
-    <rect x="1408" y="620" id="os" name="2129" transform="matrix(0.7176 0.6964 -0.6964 0.7176 846.0892 -812.5475)" class="st22" width="34.2" height="34.2"></rect>
+    <rect x="1408" y="620"  id="2129" transform="matrix(0.7176 0.6964 -0.6964 0.7176 846.0892 -812.5475)" class="st22 os" width="34.2" height="34.2"></rect>
   
-    <rect x="1383" y="595.6" id="os" name="2130" transform="matrix(0.7176 0.6964 -0.6964 0.7176 822.0615 -802.0688)" class="st22" width="34.2" height="34.2"></rect>
+    <rect x="1383" y="595.6"  id="2130" transform="matrix(0.7176 0.6964 -0.6964 0.7176 822.0615 -802.0688)" class="st22 os" width="34.2" height="34.2"></rect>
   
-    <rect x="1358.3" y="571.7" id="os" name="2132" transform="matrix(0.7176 0.6964 -0.6964 0.7176 798.39 -791.6338)" class="st22" width="34.2" height="34.2"></rect>
+    <rect x="1358.3" y="571.7"  id="2132" transform="matrix(0.7176 0.6964 -0.6964 0.7176 798.39 -791.6338)" class="st22 os" width="34.2" height="34.2"></rect>
   
-    <rect x="1400.1" y="430.9" id="os" name="2114C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 708.4907 -857.6699)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1400.1" y="430.9"  id="2114C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 708.4907 -857.6699)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1383.3" y="413.6" id="os" name="2114B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 691.5386 -850.6373)" class="st22" width="22.9" height="27.8"></rect>
+    <rect x="1383.3" y="413.6"  id="2114B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 691.5386 -850.6373)" class="st22 os" width="22.9" height="27.8"></rect>
   
-    <rect x="1371.9" y="391.9" id="os" name="2114A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 673.3564 -849.0632)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1371.9" y="391.9"  id="2114A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 673.3564 -849.0632)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1451.2" y="374.6" id="os" name="2114F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 683.683 -909.1536)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1451.2" y="374.6"  id="2114F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 683.683 -909.1536)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1433.9" y="357.8" id="os" name="2114E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 667.1102 -901.8478)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1433.9" y="357.8"  id="2114E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 667.1102 -901.8478)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1415.9" y="341.1" id="os" name="2114D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 650.39 -894.0193)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1415.9" y="341.1"  id="2114D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 650.39 -894.0193)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1471.7" y="353.4" id="os" name="2114I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 674.739 -929.4429)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1471.7" y="353.4"  id="2114I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 674.739 -929.4429)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1454.2" y="336.8" id="os" name="2114H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 658.1848 -921.9514)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1454.2" y="336.8"  id="2114H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 658.1848 -921.9514)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1436.7" y="319.8" id="os" name="2114K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 641.446 -914.5725)" class="st22" width="23.6" height="27.8"></rect>
+    <rect x="1436.7" y="319.8"  id="2114K" transform="matrix(0.7176 0.6964 -0.6964 0.7176 641.446 -914.5725)" class="st22 os" width="23.6" height="27.8"></rect>
   
-    <rect x="1400" y="269.5" id="os" name="2111" transform="matrix(0.7176 0.6964 -0.6964 0.7176 606.3102 -905.6309)" class="st22" width="39.9" height="50.8"></rect>
+    <rect x="1400" y="269.5"  id="2111" transform="matrix(0.7176 0.6964 -0.6964 0.7176 606.3102 -905.6309)" class="st22 os" width="39.9" height="50.8"></rect>
   
-    <rect x="1373.7" y="242.7" id="os" name="2110" transform="matrix(0.7176 0.6964 -0.6964 0.7176 579.8492 -893.9135)" class="st22" width="37.1" height="50.8"></rect>
+    <rect x="1373.7" y="242.7"  id="2110" transform="matrix(0.7176 0.6964 -0.6964 0.7176 579.8492 -893.9135)" class="st22 os" width="37.1" height="50.8"></rect>
   
-    <rect x="1347.6" y="217.1" id="os" name="2108" transform="matrix(0.7176 0.6964 -0.6964 0.7176 554.5277 -882.7511)" class="st22" width="36.6" height="50.8"></rect>
+    <rect x="1347.6" y="217.1"  id="2108" transform="matrix(0.7176 0.6964 -0.6964 0.7176 554.5277 -882.7511)" class="st22 os" width="36.6" height="50.8"></rect>
   
-    <rect x="1321.4" y="191.6" id="os" name="2106" transform="matrix(0.7176 0.6964 -0.6964 0.7176 529.3936 -871.6714)" class="st22" width="36.6" height="50.8"></rect>
+    <rect x="1321.4" y="191.6"  id="2106" transform="matrix(0.7176 0.6964 -0.6964 0.7176 529.3936 -871.6714)" class="st22 os" width="36.6" height="50.8"></rect>
   
-    <rect x="1294.8" y="165.6" id="os" name="2105" transform="matrix(0.7176 0.6964 -0.6964 0.7176 503.7399 -860.3625)" class="st22" width="36.1" height="50.8"></rect>
+    <rect x="1294.8" y="165.6"  id="2105" transform="matrix(0.7176 0.6964 -0.6964 0.7176 503.7399 -860.3625)" class="st22 os" width="36.1" height="50.8"></rect>
   
-    <rect x="1266.1" y="291.7" id="os" name="2107" transform="matrix(0.7176 0.6964 -0.6964 0.7176 583.2657 -806.6157)" class="st22" width="40.5" height="48.5"></rect>
+    <rect x="1266.1" y="291.7"  id="2107" transform="matrix(0.7176 0.6964 -0.6964 0.7176 583.2657 -806.6157)" class="st22 os" width="40.5" height="48.5"></rect>
   
-    <rect x="1295.4" y="320.1" id="os" name="2109" transform="matrix(0.7176 0.6964 -0.6964 0.7176 611.2939 -819.0341)" class="st22" width="40.5" height="48.5"></rect>
+    <rect x="1295.4" y="320.1"  id="2109" transform="matrix(0.7176 0.6964 -0.6964 0.7176 611.2939 -819.0341)" class="st22 os" width="40.5" height="48.5"></rect>
   
-    <rect x="1324.5" y="348.2" id="os" name="2112" transform="matrix(0.7176 0.6964 -0.6964 0.7176 639.0977 -831.3537)" class="st22" width="40.5" height="48.5"></rect>
+    <rect x="1324.5" y="348.2"  id="2112" transform="matrix(0.7176 0.6964 -0.6964 0.7176 639.0977 -831.3537)" class="st22 os" width="40.5" height="48.5"></rect>
   
-    <rect x="1294.7" y="385.1" id="os" name="2113" transform="matrix(0.7176 0.6964 -0.6964 0.7176 651.5817 -802.2194)" class="st22" width="40.7" height="34.6"></rect>
-  <path class="st22" id="os" name="2504" d="M1181.2,543.4l30-1.1c0.7,16.7,14,15.3,14,15.3l-1.7-14l5.2-0.1l5.6,52.8l-75.8,5l-3.9-28.2l-3.2-0.1
+    <rect x="1294.7" y="385.1"  id="2113" transform="matrix(0.7176 0.6964 -0.6964 0.7176 651.5817 -802.2194)" class="st22 os" width="40.7" height="34.6"></rect>
+  <path class="st22 os"  id="2504" d="M1181.2,543.4l30-1.1c0.7,16.7,14,15.3,14,15.3l-1.7-14l5.2-0.1l5.6,52.8l-75.8,5l-3.9-28.2l-3.2-0.1
     c-0.6,0-1-0.6-0.5-1c5-2.9,16.1-11.4,16.5-29.1l1.2,15.5C1168.8,558.5,1184.3,558.1,1181.2,543.4z"></path>
   <polygon class="st14" points="1337,504.7 1365.1,474.1 1316.3,429.4 1279.6,469.4 1318.4,507.1  "></polygon>
-  <polyline class="st22" points="1211.9,464.3 1214.8,507.4 1317.2,506.6 1270,462.8 1212,464.3   "></polyline>
+  <polyline class="st22 os" points="1211.9,464.3 1214.8,507.4 1317.2,506.6 1270,462.8 1212,464.3   "></polyline>
   <path class="st14" d="M1258.5,412.9l2.5,15.5c0,0-14.1-1.6-15.6-13.7"></path>
-  <polygon class="st22" points="1209.5,414.6 1267.6,414.5 1270.1,462 1212.4,463.8   "></polygon>
-  <path class="st22" id="os" name="2207" d="M1212.3,389.6l-64.7-2.4c0,0-0.2-10.7-12-9.1l0.1-5.4l-6.1,0.1l-1.2-26.7l80.2-4.2L1212.3,389.6z"></path>
-  <path class="st22" id="os" name="2206" d="M1050,397.5l64.5-8.1c0,0-1-10.6,10.9-10.5l-0.7-5.4l6.1-0.6l-1.9-26.7l-80.1,5.1L1050,397.5z"></path>
-  <polygon class="st22" points="1090.8,420.6 1158.5,415.5 1165.3,508.6 1096.3,513.9   "></polygon>
-  <polygon class="st22" id="os" name="2107A" points="1269,264.5 1242.6,291.6 1246.4,326.6 1288.3,284.1   "></polygon>
-  <polygon class="st22" id="os" name="2102" points="1215.9,311 1216,265.2 1179.4,267.7 1181.7,313   "></polygon>
-  <polygon class="st22" id="os" name="2419A" points="1121,262.4 1149.2,261.8 1150,288.1 1121.1,288   "></polygon>
-  <polygon class="st22" id="os" name="2419F" points="1148.7,261.9 1176.9,261.4 1177.7,287.7 1148.8,287.6   "></polygon>
+  <polygon class="st22 os" points="1209.5,414.6 1267.6,414.5 1270.1,462 1212.4,463.8   "></polygon>
+  <path class="st22 os"  id="2207" d="M1212.3,389.6l-64.7-2.4c0,0-0.2-10.7-12-9.1l0.1-5.4l-6.1,0.1l-1.2-26.7l80.2-4.2L1212.3,389.6z"></path>
+  <path class="st22 os"  id="2206" d="M1050,397.5l64.5-8.1c0,0-1-10.6,10.9-10.5l-0.7-5.4l6.1-0.6l-1.9-26.7l-80.1,5.1L1050,397.5z"></path>
+  <polygon class="st22 os" points="1090.8,420.6 1158.5,415.5 1165.3,508.6 1096.3,513.9   "></polygon>
+  <polygon class="st22 os"  id="2107A" points="1269,264.5 1242.6,291.6 1246.4,326.6 1288.3,284.1   "></polygon>
+  <polygon class="st22 os"  id="2102" points="1215.9,311 1216,265.2 1179.4,267.7 1181.7,313   "></polygon>
+  <polygon class="st22 os"  id="2419A" points="1121,262.4 1149.2,261.8 1150,288.1 1121.1,288   "></polygon>
+  <polygon class="st22 os"  id="2419F" points="1148.7,261.9 1176.9,261.4 1177.7,287.7 1148.8,287.6   "></polygon>
   
-    <rect x="766.5" y="295.6" id="os" name="2410E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 434.0476 -457.468)" class="st22" width="29.4" height="21.9"></rect>
+    <rect x="766.5" y="295.6"  id="2410E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 434.0476 -457.468)" class="st22 os" width="29.4" height="21.9"></rect>
   
-    <rect x="788.3" y="315.5" id="os" name="2410F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 453.6588 -466.2322)" class="st22" width="26.9" height="21.6"></rect>
+    <rect x="788.3" y="315.5"  id="2410F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 453.6588 -466.2322)" class="st22 os" width="26.9" height="21.6"></rect>
   
-    <rect x="808.7" y="334.3" id="os" name="2410G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 471.4517 -475.1627)" class="st22" width="26" height="18.9"></rect>
+    <rect x="808.7" y="334.3"  id="2410G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 471.4517 -475.1627)" class="st22 os" width="26" height="18.9"></rect>
   
-    <rect x="828.5" y="353.5" id="os" name="2410H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 490.3785 -483.5061)" class="st22" width="26" height="18.9"></rect>
+    <rect x="828.5" y="353.5"  id="2410H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 490.3785 -483.5061)" class="st22 os" width="26" height="18.9"></rect>
   
-    <rect x="750.6" y="311.7" id="os" name="2410A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 440.9516 -441.765)" class="st22" width="29.4" height="22.3"></rect>
+    <rect x="750.6" y="311.7"  id="2410A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 440.9516 -441.765)" class="st22 os" width="29.4" height="22.3"></rect>
   
-    <rect x="772.9" y="331" id="os" name="2410B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 460.0127 -451.3262)" class="st22" width="27.3" height="21.1"></rect>
+    <rect x="772.9" y="331"  id="2410B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 460.0127 -451.3262)" class="st22 os" width="27.3" height="21.1"></rect>
   
-    <rect x="792.8" y="351.1" id="os" name="2410C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 478.5158 -459.0963)" class="st22" width="25.1" height="18.9"></rect>
-  <path class="st22" d="M843.3,290.2l22.8-23.5l-36.3-35.2l-32.3,33.3l27.9,27.1C825.5,291.9,836.3,282.3,843.3,290.2z"></path>
+    <rect x="792.8" y="351.1"  id="2410C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 478.5158 -459.0963)" class="st22 os" width="25.1" height="18.9"></rect>
+  <path class="st22 os" d="M843.3,290.2l22.8-23.5l-36.3-35.2l-32.3,33.3l27.9,27.1C825.5,291.9,836.3,282.3,843.3,290.2z"></path>
   <path class="st11" d="M806.1,286.7l0.7-4.6c0.1-1-0.5-1.9-1.5-2l-4.2-0.6c-1-0.1-1.9,0.5-2,1.5l-0.7,4.6c-0.1,1,0.5,1.9,1.5,2
     l4.2,0.6C805.1,288.3,806,287.7,806.1,286.7z"></path>
   <path class="st11" d="M819,298.9l4.3-0.7c1.1-0.2,2.1,0.5,2.3,1.6l0.7,3.8c0.2,1.1-0.5,2.1-1.6,2.3l-4.3,0.7
     c-1.1,0.2-2.1-0.5-2.3-1.6l-0.7-3.8C817.2,300.1,817.9,299.1,819,298.9z"></path>
   
-    <rect x="816.8" y="293.5" id="os" name="2410J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 444.8551 -491.2785)" class="st22" width="22.9" height="18.9"></rect>
+    <rect x="816.8" y="293.5"  id="2410J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 444.8551 -491.2785)" class="st22 os" width="22.9" height="18.9"></rect>
   
-    <rect x="791.9" y="269.9" id="os" name="2410I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 421.4369 -480.6033)" class="st22" width="22.9" height="18.9"></rect>
+    <rect x="791.9" y="269.9"  id="2410I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 421.4369 -480.6033)" class="st22 os" width="22.9" height="18.9"></rect>
   
-    <rect x="811.4" y="368.7" id="os" name="2410D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 496.5037 -468.3198)" class="st22" width="28.8" height="18.9"></rect>
-  <path class="st22" d="M772.6,364.6L751,386.9l-35.5-34.5l27.1-28l26.7,25.9C769.3,350.4,765.3,358.6,772.6,364.6z"></path>
-  <path class="st22" d="M950.7,263.3L914.2,284c-9.4-4.3-14.3,5.3-14.3,5.3l3.1,3l-4.4,4.5l-67.3-65.3l42.2-43.5L950.7,263.3z"></path>
-  <path class="st22" id="os" name="2406" d="M772.6,364.6L751,386.9l-35.5-34.5l27.1-28l26.7,25.9C769.3,350.4,765.3,358.6,772.6,364.6z"></path>
+    <rect x="811.4" y="368.7"  id="2410D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 496.5037 -468.3198)" class="st22 os" width="28.8" height="18.9"></rect>
+  <path class="st22 os" d="M772.6,364.6L751,386.9l-35.5-34.5l27.1-28l26.7,25.9C769.3,350.4,765.3,358.6,772.6,364.6z"></path>
+  <path class="st22 os" d="M950.7,263.3L914.2,284c-9.4-4.3-14.3,5.3-14.3,5.3l3.1,3l-4.4,4.5l-67.3-65.3l42.2-43.5L950.7,263.3z"></path>
+  <path class="st22 os"  id="2406" d="M772.6,364.6L751,386.9l-35.5-34.5l27.1-28l26.7,25.9C769.3,350.4,765.3,358.6,772.6,364.6z"></path>
   
-    <rect x="760.8" y="365" id="os" name="2407" transform="matrix(0.7176 0.6964 -0.6964 0.7176 487.2307 -432.1327)" class="st22" width="31.5" height="39.5"></rect>
+    <rect x="760.8" y="365"  id="2407" transform="matrix(0.7176 0.6964 -0.6964 0.7176 487.2307 -432.1327)" class="st22 os" width="31.5" height="39.5"></rect>
   
-    <rect x="783.2" y="386.8" id="os" name="2408" transform="matrix(0.7176 0.6964 -0.6964 0.7176 508.6894 -441.5922)" class="st22" width="31.5" height="39.5"></rect>
+    <rect x="783.2" y="386.8"  id="2408" transform="matrix(0.7176 0.6964 -0.6964 0.7176 508.6894 -441.5922)" class="st22 os" width="31.5" height="39.5"></rect>
   
-    <rect x="733.9" y="392.8" id="os" name="2404" transform="matrix(0.7176 0.6964 -0.6964 0.7176 499.0075 -405.5638)" class="st22" width="31.5" height="39.5"></rect>
+    <rect x="733.9" y="392.8"  id="2404" transform="matrix(0.7176 0.6964 -0.6964 0.7176 499.0075 -405.5638)" class="st22 os" width="31.5" height="39.5"></rect>
   
-    <rect x="757.5" y="415.1" id="os" name="2405" transform="matrix(0.7176 0.6964 -0.6964 0.7176 520.9728 -415.2466)" class="st22" width="30.1" height="39.5"></rect>
-  <path class="st22" id="os" name="2403" d="M730.3,408.2l20.7-21.3l-35.5-34.5l-27.9,28.7l26,25.3C713.6,406.4,723.3,400.3,730.3,408.2z"></path>
+    <rect x="757.5" y="415.1"  id="2405" transform="matrix(0.7176 0.6964 -0.6964 0.7176 520.9728 -415.2466)" class="st22 os" width="30.1" height="39.5"></rect>
+  <path class="st22 os"  id="2403" d="M730.3,408.2l20.7-21.3l-35.5-34.5l-27.9,28.7l26,25.3C713.6,406.4,723.3,400.3,730.3,408.2z"></path>
   
-    <rect x="696.6" y="422.9" id="os" name="2401C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 501.8491 -373.5819)" class="st22" width="30" height="18.3"></rect>
+    <rect x="696.6" y="422.9"  id="2401C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 501.8491 -373.5819)" class="st22 os" width="30" height="18.3"></rect>
   
-    <rect x="672.7" y="399.8" id="os" name="2401A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 478.9591 -363.4914)" class="st22" width="30" height="18.3"></rect>
+    <rect x="672.7" y="399.8"  id="2401A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 478.9591 -363.4914)" class="st22 os" width="30" height="18.3"></rect>
   
-    <rect x="681.3" y="438.8" id="os" name="2401D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 508.53 -358.4264)" class="st22" width="30" height="18.3"></rect>
+    <rect x="681.3" y="438.8"  id="2401D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 508.53 -358.4264)" class="st22 os" width="30" height="18.3"></rect>
   
-    <rect x="657.6" y="415.8" id="os" name="2401B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 485.8821 -348.4427)" class="st22" width="30" height="18.3"></rect>
+    <rect x="657.6" y="415.8"  id="2401B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 485.8821 -348.4427)" class="st22 os" width="30" height="18.3"></rect>
   
-    <rect x="631.2" y="434.6" id="os" name="2319" transform="matrix(0.7176 0.6964 -0.6964 0.7176 498.384 -326.7225)" class="st22" width="41.8" height="33.2"></rect>
+    <rect x="631.2" y="434.6"  id="2319" transform="matrix(0.7176 0.6964 -0.6964 0.7176 498.384 -326.7225)" class="st22 os" width="41.8" height="33.2"></rect>
   
-    <rect x="661.3" y="463.2" id="os" name="2317" transform="matrix(0.7176 0.6964 -0.6964 0.7176 526.4205 -338.7344)" class="st22" width="39.3" height="33.2"></rect>
+    <rect x="661.3" y="463.2"  id="2317" transform="matrix(0.7176 0.6964 -0.6964 0.7176 526.4205 -338.7344)" class="st22 os" width="39.3" height="33.2"></rect>
   
-    <rect x="604.5" y="460" id="os" name="2318" transform="matrix(0.7176 0.6964 -0.6964 0.7176 512.0286 -302.4582)" class="st22" width="49" height="40.4"></rect>
+    <rect x="604.5" y="460"  id="2318" transform="matrix(0.7176 0.6964 -0.6964 0.7176 512.0286 -302.4582)" class="st22 os" width="49" height="40.4"></rect>
   
-    <rect x="577.3" y="489.5" id="os" name="2320" transform="matrix(0.7176 0.6964 -0.6964 0.7176 524.2184 -275.4139)" class="st22" width="49" height="38.6"></rect>
+    <rect x="577.3" y="489.5"  id="2320" transform="matrix(0.7176 0.6964 -0.6964 0.7176 524.2184 -275.4139)" class="st22 os" width="49" height="38.6"></rect>
   
-    <rect x="550.7" y="515.9" id="os" name="2321" transform="matrix(0.7176 0.6964 -0.6964 0.7176 535.7866 -249.1718)" class="st22" width="49" height="40.4"></rect>
+    <rect x="550.7" y="515.9"  id="2321" transform="matrix(0.7176 0.6964 -0.6964 0.7176 535.7866 -249.1718)" class="st22 os" width="49" height="40.4"></rect>
   
-    <rect x="758.1" y="491" id="os" name="2402" transform="matrix(0.7176 0.6964 -0.6964 0.7176 575.6478 -399.3721)" class="st22" width="44.5" height="38.4"></rect>
+    <rect x="758.1" y="491"  id="2402" transform="matrix(0.7176 0.6964 -0.6964 0.7176 575.6478 -399.3721)" class="st22 os" width="44.5" height="38.4"></rect>
   
-    <rect x="731.5" y="518.1" id="os" name="2401" transform="matrix(0.7176 0.6964 -0.6964 0.7176 586.6451 -373.3513)" class="st22" width="44.5" height="37.3"></rect>
+    <rect x="731.5" y="518.1"  id="2401" transform="matrix(0.7176 0.6964 -0.6964 0.7176 586.6451 -373.3513)" class="st22 os" width="44.5" height="37.3"></rect>
   
-    <rect x="706" y="545.2" id="os" name="2316" transform="matrix(0.7176 0.6964 -0.6964 0.7176 598.3217 -347.9371)" class="st22" width="44.5" height="37.3"></rect>
-  <path class="st22" d="M799.6,657.2l-67.9-65.9l69.1-71.2c0,0,13.4-7.9,37.3,9.9c14.2,10.6,23.4,21,23.4,21l62.4,1.3l1.8,37l-61,0.6
+    <rect x="706" y="545.2"  id="2316" transform="matrix(0.7176 0.6964 -0.6964 0.7176 598.3217 -347.9371)" class="st22 os" width="44.5" height="37.3"></rect>
+  <path class="st22 os" d="M799.6,657.2l-67.9-65.9l69.1-71.2c0,0,13.4-7.9,37.3,9.9c14.2,10.6,23.4,21,23.4,21l62.4,1.3l1.8,37l-61,0.6
     L799.6,657.2z"></path>
   
-    <rect x="849.6" y="454" transform="matrix(0.7176 0.6964 -0.6964 0.7176 589.4681 -469.9958)" class="st22" width="49.5" height="75.8"></rect>
-  <polygon class="st22" points="978.5,471 930.9,472.4 929.6,427.7 975.4,426.4   "></polygon>
-  <path class="st22" id="os" name="2502" d="M1040.4,519.7l2.6,36.6c-12.4,0.1-11.7,16.2-11.7,16.2c-27.2,11.3-51.7-13.6-51.7-13.6l-4.1-35.3
+    <rect x="849.6" y="454" transform="matrix(0.7176 0.6964 -0.6964 0.7176 589.4681 -469.9958)" class="st22 os" width="49.5" height="75.8"></rect>
+  <polygon class="st22 os" points="978.5,471 930.9,472.4 929.6,427.7 975.4,426.4   "></polygon>
+  <path class="st22 os"  id="2502" d="M1040.4,519.7l2.6,36.6c-12.4,0.1-11.7,16.2-11.7,16.2c-27.2,11.3-51.7-13.6-51.7-13.6l-4.1-35.3
     L1040.4,519.7z"></path>
-  <path class="st22" id="os" name="2501" d="M1043.9,557.2c10.9-1,14.1,12,14.1,12c23.4,5.7,41-15.7,41-15.7l-1.5-37.9l-55.1,3.6L1043.9,557.2z"></path>
-  <polygon class="st22" points="1096.3,516.8 1039.4,518.5 1033.8,423.3 1091.3,420.9   "></polygon>
-  <polygon class="st22" points="1038.2,518.6 983.8,522.8 975.7,425.1 1033.2,422.6   "></polygon>
-  <polygon class="st22" points="1212.1,482.6 1162.8,484 1158.3,414.8 1208.1,412.8   "></polygon>
-  <polygon class="st22" points="1326.8,566.5 1233,571.1 1229.5,543.5 1324.3,538.7   "></polygon>
-  <polygon class="st22" points="1337,504.7 1365.1,474.1 1316.3,429.4 1279.6,469.4 1318.4,507.1  "></polygon>
-  <polygon class="st22" points="1270,460.9 1212.4,462.6 1208.2,413.9 1266.4,411.8   "></polygon>
-  <polygon class="st22" points="1248.5,327.3 1259.4,411.9 1296.7,408.6 1286.5,399.1 1310.9,374 1255.2,320   "></polygon>
-  <polygon class="st22" points="1214.8,506.8 1165.4,509.2 1163.2,484.1 1212.2,482.4   "></polygon>
-  <polygon class="st22" id="os" name="2205" points="933.5,350.6 1048.5,347.1 1050,399.6 934,406.2   "></polygon>
-  <polygon class="st22" id="os" name="2412" points="893.7,343.1 932.8,343 933.5,384.2 893.9,385.1   "></polygon>
-  <polygon class="st22" id="os" name="2409A" points="894.3,383.7 933.4,383.6 933.8,406.3 894.2,407.2   "></polygon>
-  <polygon class="st22" points="988.6,292.3 965.8,293.4 932.6,325 934.5,350.3 991.7,348.8   "></polygon>
+  <path class="st22 os"  id="2501" d="M1043.9,557.2c10.9-1,14.1,12,14.1,12c23.4,5.7,41-15.7,41-15.7l-1.5-37.9l-55.1,3.6L1043.9,557.2z"></path>
+  <polygon class="st22 os" points="1096.3,516.8 1039.4,518.5 1033.8,423.3 1091.3,420.9   "></polygon>
+  <polygon class="st22 os" points="1038.2,518.6 983.8,522.8 975.7,425.1 1033.2,422.6   "></polygon>
+  <polygon class="st22 os" points="1212.1,482.6 1162.8,484 1158.3,414.8 1208.1,412.8   "></polygon>
+  <polygon class="st22 os" points="1326.8,566.5 1233,571.1 1229.5,543.5 1324.3,538.7   "></polygon>
+  <polygon class="st22 os" points="1337,504.7 1365.1,474.1 1316.3,429.4 1279.6,469.4 1318.4,507.1  "></polygon>
+  <polygon class="st22 os" points="1270,460.9 1212.4,462.6 1208.2,413.9 1266.4,411.8   "></polygon>
+  <polygon class="st22 os" points="1248.5,327.3 1259.4,411.9 1296.7,408.6 1286.5,399.1 1310.9,374 1255.2,320   "></polygon>
+  <polygon class="st22 os" points="1214.8,506.8 1165.4,509.2 1163.2,484.1 1212.2,482.4   "></polygon>
+  <polygon class="st22 os"  id="2205" points="933.5,350.6 1048.5,347.1 1050,399.6 934,406.2   "></polygon>
+  <polygon class="st22 os"  id="2412" points="893.7,343.1 932.8,343 933.5,384.2 893.9,385.1   "></polygon>
+  <polygon class="st22 os"  id="2409A" points="894.3,383.7 933.4,383.6 933.8,406.3 894.2,407.2   "></polygon>
+  <polygon class="st22 os" points="988.6,292.3 965.8,293.4 932.6,325 934.5,350.3 991.7,348.8   "></polygon>
   
-    <rect x="988.6" y="286.2" id="os" name="2416" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.9029 16.7896)" class="st22" width="34.9" height="33.5"></rect>
+    <rect x="988.6" y="286.2"  id="2416" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.9029 16.7896)" class="st22 os" width="34.9" height="33.5"></rect>
   
-    <rect x="990.4" y="319.3" id="os" name="2417" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -5.4113 16.815)" class="st22" width="34" height="28.2"></rect>
+    <rect x="990.4" y="319.3"  id="2417" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -5.4113 16.815)" class="st22 os" width="34" height="28.2"></rect>
   
-    <rect x="1046.5" y="265.6" id="os" name="2418C" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.4907 17.6968)" class="st22" width="28.5" height="26"></rect>
+    <rect x="1046.5" y="265.6"  id="2418C" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.4907 17.6968)" class="st22 os" width="28.5" height="26"></rect>
   
-    <rect x="1077.4" y="266.6" id="os" name="2418D" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.4785 18.1867)" class="st22" width="25.7" height="23"></rect>
+    <rect x="1077.4" y="266.6"  id="2418D" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.4785 18.1867)" class="st22 os" width="25.7" height="23"></rect>
   
-    <rect x="1048.6" y="293.8" id="os" name="2418B" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.9594 17.7124)" class="st22" width="25.7" height="26"></rect>
+    <rect x="1048.6" y="293.8"  id="2418B" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.9594 17.7124)" class="st22 os" width="25.7" height="26"></rect>
   
-    <rect x="1076.1" y="292.9" id="os" name="2418E" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.9403 18.2025)" class="st22" width="29.8" height="26"></rect>
+    <rect x="1076.1" y="292.9"  id="2418E" transform="matrix(0.9999 -1.664641e-02 1.664641e-02 0.9999 -4.9403 18.2025)" class="st22 os" width="29.8" height="26"></rect>
   
-    <rect x="1051.6" y="322.1" id="os" name="2418A" transform="matrix(0.9999 -1.551293e-02 1.551293e-02 0.9999 -5.0899 16.5455)" class="st22" width="24.8" height="28.4"></rect>
+    <rect x="1051.6" y="322.1"  id="2418A" transform="matrix(0.9999 -1.551293e-02 1.551293e-02 0.9999 -5.0899 16.5455)" class="st22 os" width="24.8" height="28.4"></rect>
   
-    <rect x="1077.1" y="321.3" id="os" name="2418F" transform="matrix(0.9999 -1.551293e-02 1.551293e-02 0.9999 -5.0737 16.9719)" class="st22" width="28.7" height="28.4"></rect>
-  <polygon class="st22" id="os" name="2419B" points="1120.5,291 1148.7,290.4 1149.5,316.8 1120.6,316.7   "></polygon>
-  <polygon class="st22" id="os" name="2419E" points="1150.9,289.6 1177.6,289.3 1179.5,315 1152.3,316.5   "></polygon>
-  <polygon class="st22" id="os" name="2419D" points="1160.8,318.8 1179.9,317.2 1180.2,343.2 1162.3,344.3   "></polygon>
+    <rect x="1077.1" y="321.3"  id="2418F" transform="matrix(0.9999 -1.551293e-02 1.551293e-02 0.9999 -5.0737 16.9719)" class="st22 os" width="28.7" height="28.4"></rect>
+  <polygon class="st22 os"  id="2419B" points="1120.5,291 1148.7,290.4 1149.5,316.8 1120.6,316.7   "></polygon>
+  <polygon class="st22 os"  id="2419E" points="1150.9,289.6 1177.6,289.3 1179.5,315 1152.3,316.5   "></polygon>
+  <polygon class="st22 os"  id="2419D" points="1160.8,318.8 1179.9,317.2 1180.2,343.2 1162.3,344.3   "></polygon>
   
     <rect x="1130.7" y="338.8" transform="matrix(6.706952e-02 0.9977 -0.9977 6.706952e-02 1399.1228 -814.1943)" class="st11" width="8.4" height="4.5"></rect>
   <path class="st11" d="M1148,326.3l3.6,2.4c0.9,0.6,1.2,1.8,0.6,2.7l-2.1,3.2c-0.6,0.9-1.8,1.2-2.7,0.6l-3.6-2.4
     c-0.9-0.6-1.2-1.8-0.6-2.7l2.1-3.2C1145.9,326,1147.1,325.7,1148,326.3z"></path>
   
-    <rect x="1537.5" y="845.5" id="os" name="2136E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1036.2367 -836.8965)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1537.5" y="845.5"  id="2136E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1036.2367 -836.8965)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1518.5" y="827" id="os" name="2136D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1017.9613 -828.8403)" class="st22" width="25.3" height="27.9"></rect>
+    <rect x="1518.5" y="827"  id="2136D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1017.9613 -828.8403)" class="st22 os" width="25.3" height="27.9"></rect>
   
-    <rect x="1517.1" y="866.9" id="os" name="2136B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1044.5785 -816.9044)" class="st22" width="25.3" height="25.6"></rect>
+    <rect x="1517.1" y="866.9"  id="2136B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1044.5785 -816.9044)" class="st22 os" width="25.3" height="25.6"></rect>
   
-    <rect x="1498" y="848.3" id="os" name="2136A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1026.2933 -808.8704)" class="st22" width="25.3" height="25.7"></rect>
+    <rect x="1498" y="848.3"  id="2136A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1026.2933 -808.8704)" class="st22 os" width="25.3" height="25.7"></rect>
   
-    <rect x="1536.3" y="885" id="os" name="2136C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1062.744 -825.1282)" class="st22" width="25.3" height="26"></rect>
+    <rect x="1536.3" y="885"  id="2136C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1062.744 -825.1282)" class="st22 os" width="25.3" height="26"></rect>
   
-    <rect x="1556.2" y="863.5" id="os" name="2136F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1054.0874 -844.7655)" class="st22" width="25.3" height="27.9"></rect>
-  <polygon class="st22" id="os" name="2103" points="1179.9,315.9 1206.6,315.6 1208.6,341.3 1181.3,342.8   "></polygon>
+    <rect x="1556.2" y="863.5"  id="2136F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 1054.0874 -844.7655)" class="st22 os" width="25.3" height="27.9"></rect>
+  <polygon class="st22 os"  id="2103" points="1179.9,315.9 1206.6,315.6 1208.6,341.3 1181.3,342.8   "></polygon>
   <path class="st11" d="M1186.2,332.7l2.6-3.9c0.5-0.8,1.7-1,2.5-0.5l3.5,2.3c0.8,0.5,1,1.7,0.5,2.5l-2.6,3.9c-0.5,0.8-1.7,1-2.5,0.5
     l-3.5-2.3C1185.8,334.6,1185.6,333.5,1186.2,332.7z"></path>
-  <polygon class="st22" id="os" name="2419C" points="1132.9,319.4 1161.1,318.8 1162,345.2 1133,345.1   "></polygon>
+  <polygon class="st22 os"  id="2419C" points="1132.9,319.4 1161.1,318.8 1162,345.2 1133,345.1   "></polygon>
   <path class="st15" d="M548.9,600.2l3.2-0.6c1.1-0.2,2.1,0.5,2.3,1.6l0.5,2.8c0.2,1.1-0.5,2.1-1.6,2.3l-3.2,0.6
     c-1.1,0.2-2.1-0.5-2.3-1.6l-0.5-2.8C547.1,601.4,547.8,600.3,548.9,600.2z"></path>
   
     <rect x="617.8" y="727.8" transform="matrix(0.7176 0.6964 -0.6964 0.7176 685.9774 -230.955)" class="st17" width="20" height="5.3"></rect>
   
     <rect x="633.8" y="741.6" transform="matrix(-0.7176 -0.6964 0.6964 -0.7176 586.2014 1726.1169)" class="st17" width="18.4" height="5.3"></rect>
-  <rect id="_x3C_Slice_x3E_" x="424" y="138.2" class="st22" width="1443" height="843"></rect>
   
     <rect x="624.3" y="641.4" transform="matrix(-0.6964 0.7176 -0.7176 -0.6964 1534.8101 640.9237)" class="st15" width="15.1" height="7.4"></rect>
   <path class="st11" d="M619.8,635l4.6-0.8c1-0.2,1.9,0.5,2.1,1.4l0.7,4.2c0.2,1-0.5,1.9-1.4,2.1l-4.6,0.8c-1,0.2-1.9-0.5-2.1-1.4
@@ -3219,26 +3224,26 @@
     <rect x="766.8" y="793.3" transform="matrix(-0.6964 0.7176 -0.7176 -0.6964 1887.2224 795.6494)" class="st16" width="17.1" height="7.4"></rect>
   
     <rect x="775.9" y="800" transform="matrix(-0.6964 0.7176 -0.7176 -0.6964 1907.1995 800.5754)" class="st15" width="16.8" height="7.4"></rect>
-  <polygon class="st22" points="774.1,807.8 791.3,822.4 802.1,810.9 785.4,795.7   "></polygon>
+  <polygon class="st22 os" points="774.1,807.8 791.3,822.4 802.1,810.9 785.4,795.7   "></polygon>
   <path class="st11" d="M789.8,807l4.6-0.8c1-0.2,1.9,0.5,2.1,1.4l0.7,4.2c0.2,1-0.5,1.9-1.4,2.1l-4.6,0.8c-1,0.2-1.9-0.5-2.1-1.4
     l-0.7-4.2C788.2,808.1,788.8,807.2,789.8,807z"></path>
-  <polygon class="st22" points="755.7,790.2 772,805.7 784.4,793.4 767.3,777.6   "></polygon>
-  <polygon class="st22" points="722.7,758.2 739,773.7 751.4,761.4 734.3,745.6   "></polygon>
+  <polygon class="st22 os" points="755.7,790.2 772,805.7 784.4,793.4 767.3,777.6   "></polygon>
+  <polygon class="st22 os" points="722.7,758.2 739,773.7 751.4,761.4 734.3,745.6   "></polygon>
   <path class="st11" d="M763.8,786l4.6-0.8c1-0.2,1.9,0.5,2.1,1.4l0.7,4.2c0.2,1-0.5,1.9-1.4,2.1l-4.6,0.8c-1,0.2-1.9-0.5-2.1-1.4
     l-0.7-4.2C762.2,787.1,762.8,786.2,763.8,786z"></path>
   <path class="st11" d="M737.5,758l4.6-0.8c1-0.2,1.9,0.5,2.1,1.4l0.7,4.2c0.2,1-0.5,1.9-1.4,2.1l-4.6,0.8c-1,0.2-1.9-0.5-2.1-1.4
     l-0.7-4.2C735.9,759.1,736.5,758.2,737.5,758z"></path>
-  <polygon class="st22" points="703.7,740.2 720,755.7 732.4,743.4 715.3,727.6   "></polygon>
+  <polygon class="st22 os" points="703.7,740.2 720,755.7 732.4,743.4 715.3,727.6   "></polygon>
   <path class="st11" d="M713.9,736.1l4.6-0.8c1-0.2,1.9,0.5,2.1,1.4l0.7,4.2c0.2,1-0.5,1.9-1.4,2.1l-4.6,0.8c-1,0.2-1.9-0.5-2.1-1.4
     l-0.7-4.2C712.3,737.2,712.9,736.3,713.9,736.1z"></path>
-  <polygon class="st22" points="670.7,707.2 687,722.7 699.4,710.4 682.3,694.6   "></polygon>
-  <polygon class="st22" points="651.7,689.4 668.2,705.7 680.8,692.7 663.4,676.1   "></polygon>
+  <polygon class="st22 os" points="670.7,707.2 687,722.7 699.4,710.4 682.3,694.6   "></polygon>
+  <polygon class="st22 os" points="651.7,689.4 668.2,705.7 680.8,692.7 663.4,676.1   "></polygon>
   <path class="st11" d="M684.4,707.2l4.6-0.8c1-0.2,1.9,0.5,2.1,1.4l0.7,4.2c0.2,1-0.5,1.9-1.4,2.1l-4.6,0.8c-1,0.2-1.9-0.5-2.1-1.4
     l-0.7-4.2C682.8,708.3,683.4,707.4,684.4,707.2z"></path>
   <path class="st11" d="M660.4,685.2l4.6-0.8c1-0.2,1.9,0.5,2.1,1.4l0.7,4.2c0.2,1-0.5,1.9-1.4,2.1l-4.6,0.8c-1,0.2-1.9-0.5-2.1-1.4
     l-0.7-4.2C658.8,686.3,659.4,685.4,660.4,685.2z"></path>
-  <polygon class="st22" points="628.7,656.4 645.2,672.7 657.8,659.7 640.4,643.1   "></polygon>
-  <polygon class="st22" points="610.7,639.4 627.2,655.7 639.8,642.7 622.4,626.1   "></polygon>
+  <polygon class="st22 os" points="628.7,656.4 645.2,672.7 657.8,659.7 640.4,643.1   "></polygon>
+  <polygon class="st22 os" points="610.7,639.4 627.2,655.7 639.8,642.7 622.4,626.1   "></polygon>
   <g>
     
       <rect x="512.8" y="660.7" transform="matrix(-0.7176 -0.6964 0.6964 -0.7176 422.8317 1512.7904)" class="st15" width="10.5" height="20"></rect>
@@ -3257,104 +3262,73 @@
   </g>
   
     <rect x="766.2" y="686.8" transform="matrix(0.7176 0.6964 -0.6964 0.7176 699.7155 -341.0064)" class="st15" width="8.4" height="11.2"></rect>
-    <rect x="1023.5" y="680.6" transform="matrix(6.568496e-02 0.9978 -0.9978 6.568496e-02 1656.8987 -386.5344)" class="st22" width="22.7" height="21.7"></rect>
+    <rect x="1023.5" y="680.6" transform="matrix(6.568496e-02 0.9978 -0.9978 6.568496e-02 1656.8987 -386.5344)" class="st22 os" width="22.7" height="21.7"></rect>
   
-    <rect x="809" y="243.5" id="os" name="2413" transform="matrix(0.7322 0.6811 -0.6811 0.7322 404.3837 -497.5589)" class="st22" width="51.7" height="43.8"></rect>
+    <rect x="809" y="243.5"  id="2413" transform="matrix(0.7322 0.6811 -0.6811 0.7322 404.3837 -497.5589)" class="st22 os" width="51.7" height="43.8"></rect>
   
-    <rect x="837.4" y="215.9" id="os" name="2414" transform="matrix(0.7322 0.6811 -0.6811 0.7322 407.8363 -542.1097)" class="st22" width="111.7" height="63.3"></rect>
+    <rect x="837.4" y="215.9"  id="2414" transform="matrix(0.7322 0.6811 -0.6811 0.7322 407.8363 -542.1097)" class="st22 os" width="111.7" height="63.3"></rect>
   
-    <rect x="1130.5" y="345" transform="matrix(-0.9975 7.074479e-02 -7.074479e-02 -0.9975 2364.4155 653.059)" class="st22" width="80.2" height="46.8"></rect>
+    <rect x="1130.5" y="345" transform="matrix(-0.9975 7.074479e-02 -7.074479e-02 -0.9975 2364.4155 653.059)" class="st22 os" width="80.2" height="46.8"></rect>
   
-    <rect x="1048.3" y="349.3" transform="matrix(-0.9975 7.074479e-02 -7.074479e-02 -0.9975 2200.5146 667.5472)" class="st22" width="80.2" height="46.8"></rect>
+    <rect x="1048.3" y="349.3" transform="matrix(-0.9975 7.074479e-02 -7.074479e-02 -0.9975 2200.5146 667.5472)" class="st22 os" width="80.2" height="46.8"></rect>
   
-    <rect x="1042.9" y="518.5" transform="matrix(-0.9973 7.370273e-02 -7.370273e-02 -0.9973 2180.3667 1009.2444)" class="st22" width="57.3" height="52.8"></rect>
+    <rect x="1042.9" y="518.5" transform="matrix(-0.9973 7.370273e-02 -7.370273e-02 -0.9973 2180.3667 1009.2444)" class="st22 os" width="57.3" height="52.8"></rect>
   
-    <rect x="978.6" y="520.9" transform="matrix(-0.9973 7.370273e-02 -7.370273e-02 -0.9973 2059.1746 1022.5465)" class="st22" width="64.3" height="56.7"></rect>
+    <rect x="978.6" y="520.9" transform="matrix(-0.9973 7.370273e-02 -7.370273e-02 -0.9973 2059.1746 1022.5465)" class="st22 os" width="64.3" height="56.7"></rect>
   
-    <rect x="729.3" y="330.1" transform="matrix(0.685 -0.7285 0.7285 0.685 -23.2064 656.9037)" class="st22" width="37.6" height="50.4"></rect>
+    <rect x="729.3" y="330.1" transform="matrix(0.685 -0.7285 0.7285 0.685 -23.2064 656.9037)" class="st22 os" width="37.6" height="50.4"></rect>
   
-    <rect x="700" y="359.2" transform="matrix(0.685 -0.7285 0.7285 0.685 -53.3013 645.4736)" class="st22" width="39.8" height="50.4"></rect>
-    <rect x="1244.8" y="329.5" class="st22" width="51.4" height="79.5"></rect>
+    <rect x="700" y="359.2" transform="matrix(0.685 -0.7285 0.7285 0.685 -53.3013 645.4736)" class="st22 os" width="39.8" height="50.4"></rect>
+    <rect x="1244.8" y="329.5" class="st22 os" width="51.4" height="79.5"></rect>
   
-    <rect x="1213.5" y="462.1" transform="matrix(0.9997 -2.354528e-02 2.354528e-02 0.9997 -11.0703 29.4439)" class="st22" width="62.7" height="45.5"></rect>
+    <rect x="1213.5" y="462.1" transform="matrix(0.9997 -2.354528e-02 2.354528e-02 0.9997 -11.0703 29.4439)" class="st22 os" width="62.7" height="45.5"></rect>
   
-    <rect x="728.5" y="746.2" id="os" name="2335D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 736.8892 -302.2323)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="728.5" y="746.2"  id="2335D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 736.8892 -302.2323)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="757.5" y="777.2" id="os" name="2332C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 766.667 -313.6751)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="757.5" y="777.2"  id="2332C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 766.667 -313.6751)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="780.5" y="796.2" id="os" name="2332D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 786.3934 -324.3279)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="780.5" y="796.2"  id="2332D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 786.3934 -324.3279)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="794.4" y="781.6" id="os" name="2332B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 779.2416 -338.4704)" class="st22" width="25.3" height="20.3"></rect>
+    <rect x="794.4" y="781.6" id="2332B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 779.2416 -338.4704)" class="st22 os" width="25.3" height="20.3"></rect>
+   
 </g>
 <g id="Corner_Cubicle">
   
-    <rect x="561.5" y="611.2" id="os" name="2338B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 595.717 -224.0495)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="561.5" y="611.2"  id="2338B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 595.717 -224.0495)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="544.3" y="594" id="os" name="2338A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 578.7014 -216.5404)" class="st22" width="24.2" height="22.8"></rect>
+    <rect x="544.3" y="594"  id="2338A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 578.7014 -216.5404)" class="st22 os" width="24.2" height="22.8"></rect>
   
-    <rect x="544.5" y="628.2" id="os" name="2338D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 602.7559 -207.41)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="544.5" y="628.2"  id="2338D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 602.7559 -207.41)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="527.3" y="609" id="os" name="2338c" transform="matrix(0.7176 0.6964 -0.6964 0.7176 584.3474 -200.4657)" class="st22" width="24.2" height="22.8"></rect>
+    <rect x="527.3" y="609"  id="2338c" transform="matrix(0.7176 0.6964 -0.6964 0.7176 584.3474 -200.4657)" class="st22 os" width="24.2" height="22.8"></rect>
   
-    <rect x="526.8" y="644.9" id="os" name="2338F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 610.0918 -190.097)" class="st22" width="25.3" height="24.7"></rect>
+    <rect x="526.8" y="644.9"  id="2338F" transform="matrix(0.7176 0.6964 -0.6964 0.7176 610.0918 -190.097)" class="st22 os" width="25.3" height="24.7"></rect>
   
-    <rect x="509.6" y="627.7" id="os" name="2338E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 593.0731 -182.5948)" class="st22" width="24.2" height="24.7"></rect>
+    <rect x="509.6" y="627.7"  id="2338E" transform="matrix(0.7176 0.6964 -0.6964 0.7176 593.0731 -182.5948)" class="st22 os" width="24.2" height="24.7"></rect>
   
-    <rect x="510.5" y="662.2" id="os" name="2338H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 616.8394 -174.1186)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="510.5" y="662.2"  id="2338H" transform="matrix(0.7176 0.6964 -0.6964 0.7176 616.8394 -174.1186)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="493.3" y="645" id="os" name="2338G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 599.8207 -166.6164)" class="st22" width="24.2" height="22.8"></rect>
+    <rect x="493.3" y="645"  id="2338G" transform="matrix(0.7176 0.6964 -0.6964 0.7176 599.8207 -166.6164)" class="st22 os" width="24.2" height="22.8"></rect>
   
-    <rect x="493.6" y="677.8" id="os" name="2338J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 623.866 -157.5465)" class="st22" width="25.3" height="25.5"></rect>
+    <rect x="493.6" y="677.8"  id="2338J" transform="matrix(0.7176 0.6964 -0.6964 0.7176 623.866 -157.5465)" class="st22 os" width="25.3" height="25.5"></rect>
   
-    <rect x="476.3" y="660.6" id="os" name="2338I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 606.8474 -150.0443)" class="st22" width="24.2" height="25.5"></rect>
+    <rect x="476.3" y="660.6"  id="2338I" transform="matrix(0.7176 0.6964 -0.6964 0.7176 606.8474 -150.0443)" class="st22 os" width="24.2" height="25.5"></rect>
 </g>
 <g id="Test_Cubicle">
   
-    <rect x="647.5" y="629.2" transform="matrix(0.7176 0.6964 -0.6964 0.7176 632.5362 -278.8591)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="647.5" y="629.2" transform="matrix(0.7176 0.6964 -0.6964 0.7176 632.5362 -278.8591)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="630.3" y="612" transform="matrix(0.7176 0.6964 -0.6964 0.7176 615.5205 -271.35)" class="st22" width="24.2" height="22.8"></rect>
+    <rect x="630.3" y="612" transform="matrix(0.7176 0.6964 -0.6964 0.7176 615.5205 -271.35)" class="st22 os" width="24.2" height="22.8"></rect>
   
-    <rect x="632.2" y="647.5" id="os" name="2339D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 640.2609 -263.2985)" class="st22" width="25.3" height="20.8"></rect>
+    <rect x="632.2" y="647.5"  id="2339D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 640.2609 -263.2985)" class="st22 os" width="25.3" height="20.8"></rect>
   
-    <rect x="615" y="629.3" id="os" name="2339C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 622.5458 -256.0786)" class="st22" width="24.2" height="20.8"></rect>
+    <rect x="615" y="629.3"  id="2339C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 622.5458 -256.0786)" class="st22 os" width="24.2" height="20.8"></rect>
   
-    <rect x="654.5" y="676.2" id="os" name="2337C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 667.2446 -270.4628)" class="st22" width="25.3" height="22.8"></rect>
+    <rect x="654.5" y="676.2"  id="2337C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 667.2446 -270.4628)" class="st22 os" width="25.3" height="22.8"></rect>
   
-    <rect x="674.4" y="693.6" id="os" name="2337D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 686.0791 -277.8723)" class="st22" width="22.6" height="27.1"></rect>
+    <rect x="674.4" y="693.6"  id="2337D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 686.0791 -277.8723)" class="st22 os" width="22.6" height="27.1"></rect>
   
-    <rect x="707.5" y="725.2" id="os" name="2335C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 716.3347 -293.5372)" class="st22" width="25.3" height="22.8"></rect>
-</g>
-<g id="AP_File_Room">
-  
-    <rect x="760.1" y="522.8" id="os" name="2503" transform="matrix(0.7182 0.6958 -0.6958 0.7182 632.1234 -397.4909)" class="st22" width="93.5" height="117.7"></rect>
-     
-    <rect x="1151.3" y="542.4" transform="matrix(0.9966 -8.251928e-02 8.251928e-02 0.9966 -43.0093 100.2739)" class="st22" width="80.6" height="56"></rect>
-</g>
-
-<g id="Layer_3" class="st2">
-  <path class="st23" d="M579.6,930.9H64c-3.8,0-7-3.1-7-7V313.5c0-3.8,3.1-7,7-7h515.6c3.8,0,7,3.1,7,7v610.4
-    C586.5,927.7,583.4,930.9,579.6,930.9z"></path>
-  <circle class="st24" cx="318.9" cy="426.7" r="91.7"></circle>
-  <rect x="198.1" y="551.2" class="st25" width="265.9" height="58.5"></rect>
-  <text transform="matrix(1 0 0 1 198.1163 574.8932)" class="st26 st27 st28">ANDREAS LIRIS</text>
-  <rect x="150.1" y="587.5" class="st25" width="364.4" height="38.4"></rect>
-  <text transform="matrix(1 0 0 1 150.0936 610.524)" class="st26 st29 st30">Chief Information Officer</text>
-  <rect x="279" y="650.1" class="st25" width="114.7" height="38.4"></rect>
-  <text transform="matrix(1 0 0 1 279.0096 668.0497)" class="st26 st29 st31">OFFICE</text>
-  <rect x="264" y="779.6" class="st25" width="118.6" height="38.4"></rect>
-  <text transform="matrix(1 0 0 1 264.0104 797.6377)" class="st26 st29 st31">CONTACT</text>
-  <g class="st32">
-    <rect x="103.3" y="690.6" class="st22" width="445.9" height="38.4"></rect>
-    <text transform="matrix(1 0 0 1 103.3423 713.6285)" class="st33 st29 st30">6985 Financial Drive, RM 2104</text>
-  </g>
-  <g class="st32">
-    <rect x="227.2" y="828.6" class="st22" width="211.2" height="38.4"></rect>
-    <text transform="matrix(1 0 0 1 227.1747 851.5901)" class="st33 st29 st30">905-734-8391</text>
-  </g>
-  <g class="st32">
-    <rect x="113.3" y="864.6" class="st22" width="417" height="38.4"></rect>
-    <text transform="matrix(1 0 0 1 113.277 887.5897)" class="st33 st29 st30">andreas.liris@mapleleaf.com</text>
-  </g>
+    <rect x="707.5" y="725.2"  id="2335C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 716.3347 -293.5372)" class="st22 os" width="25.3" height="22.8"></rect>
 </g>
 </svg>
             </div>
