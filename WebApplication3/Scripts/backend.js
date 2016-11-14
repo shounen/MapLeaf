@@ -11,7 +11,6 @@ function mapClick() {
 		e.preventDefault();
 		// Get the office number of what was clicked
         // call server and get the JSON string for that office number
-		console.log(e.target.id);
 		$.ajax({
 		    url: "Default.aspx/querySQL",
 		    type: "POST",
@@ -19,7 +18,8 @@ function mapClick() {
 		    data: JSON.stringify({ query: String(e.target.id), column: 'Office Number' }), // Check column name see if it matches
 		    dataType: 'json',
 		    success: function (data) {
-		        console.log(data.d)
+		        getPersonInfo(JSON.parse(data.d));
+
 		    },
 		    error: function () { alert("HAHAHA")}
             
@@ -59,7 +59,8 @@ function newSearch() {
                 for (var i = 0; i < jsondoc.length; i++) {
                     var cp = jsondoc[i];
                     var currentPerson = jsondoc[i].Last;
-                    $(".nameContainer").append('<li class="PersonInfo" onClick="getPersonInfo(\'' + {last: cp.Last, first: cp.First} + '\')"><a href="#">' + (currentPerson.charAt(0) + currentPerson. slice(1).toLowerCase()) + '</a></li>');
+                    var cpstring = '[{Last: \'' + cp.Last + '\'}]';
+                    $(".nameContainer").append('<li class="PersonInfo" onClick="getPersonInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson. slice(1).toLowerCase()) + '</a></li>');
                 }
             }
         });
@@ -67,10 +68,11 @@ function newSearch() {
 
 }
 
-function getPersonInfo(person) {
+function getPersonInfo(person) {    
     console.log("Function called")
     console.log(person);
-  
+    alert(person[0].Last);
+    
 }
 
 $(document).ready(mapClick());
