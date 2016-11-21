@@ -26,8 +26,8 @@ namespace WebApplication3
         public static string querySQL(string query, string column)
         {
             List<Person> employees = new List<Person>();
-
-            SqlConnection sqlConnection1 = new SqlConnection("Data Source=UMAR-PC\\SQLEXPRESS;Initial Catalog=6985-2ndFloor-EI;Integrated Security=True");
+            
+            SqlConnection sqlConnection1 = new SqlConnection("Server=tcp:udmserver1.database.windows.net,1433;Initial Catalog=6985FD;Persist Security Info=False;User ID=admin1;Password=udmserver1A;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             SqlCommand cmd = new SqlCommand();
             SqlDataReader reader;
 

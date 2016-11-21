@@ -59,8 +59,8 @@ function newSearch() {
                 for (var i = 0; i < jsondoc.length; i++) {
                     var cp = jsondoc[i];
                     var currentPerson = jsondoc[i].Last;
-                    var cpstring = '[{Last: \'' + cp.Last + '\'}]';
-                    $(".nameContainer").append('<li class="PersonInfo" onClick="getPersonInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson. slice(1).toLowerCase()) + '</a></li>');
+                    var cpstring = '[{Last: \'' + cp.Last + '\', First: \'' + cp.First + '\', Location: \'' + cp.Location + '\', Position: \'' + cp.Position + '\'}]';
+                    $(".nameContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson. slice(1).toLowerCase()) + '</a></li>');
                 }
             }
         });
@@ -68,11 +68,21 @@ function newSearch() {
 
 }
 
-function getPersonInfo(person) {    
+function getPersonInfo(person) {
     console.log("Function called")
     console.log(person);
-    alert(person[0].Last);
+    console.log(person[0]);
     
+}
+
+function populateInfo(person) {
+    console.log("Function Called");
+    /* Shows the info of the person or place sitting there. 
+    The parameter person is a JavaScript Object in the form of [{First: first, Last:last, Location: location}]*/
+    var this_person = person[0];
+    $("#mySidenav").text("");
+    $("#mySidenav").append('<img id="personPhoto" style="width:100%; height:30%;" src="nopicture.jpg"></img> <div id="contactinfo"><h4 id="name">' + this_person.First + ' ' + this_person.Last + '</h4><h6 id="office">' + this_person.Location + '</h6><h6 id="position">' + this_person.Position + '</h6></div>');
+
 }
 
 $(document).ready(mapClick());

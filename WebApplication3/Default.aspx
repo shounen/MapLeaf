@@ -4,8 +4,8 @@
 
 <html lang="en">
 <head>
-    <title>Mapleaf</title>
-    <link rel="stylesheet" type="text/css" href="css/main_style.css">
+    <title>Mapleaf Azure T1.3</title>
+    <link rel="stylesheet" type="text/css" href="main_style.css">
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
