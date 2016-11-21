@@ -45,7 +45,8 @@ function zoomIn() {
 
 function newSearch() {
     $("#myInput").keyup(function () {
-        $(".nameContainer").text("");
+        $("#nameContainer").text("");
+        $("#roomContainer").text("");
         $.ajax({
             url: "Default.aspx/querySQL",
             type: "POST",
@@ -56,34 +57,51 @@ function newSearch() {
                 // Heres is where we actually populate the div element with all the data
                 var jsondoc = (JSON.parse(data.d));
                 // console.log(jsondoc)
+                if (jsondoc == "[{}]") {
+                    $("#nameContainer").text("");
+                    $("roomContainer").text("");
+                } else {
                 for (var i = 0; i < jsondoc.length; i++) {
                     var cp = jsondoc[i];
                     var currentPerson = jsondoc[i].Last;
                     var cpstring = '[{Last: \'' + cp.Last + '\', First: \'' + cp.First + '\', Location: \'' + cp.Location + '\', Position: \'' + cp.Position + '\'}]';
-                    $(".nameContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson. slice(1).toLowerCase()) + '</a></li>');
+                    if (currentPerson != "VACANT" || currentPerson != "VACENT" || currentPerson != "ASSIGNED IS" || currentPerson != "IS OPERATIONS") {
+                        if (cp.First != "") {
+                            $("#nameContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson.slice(1).toLowerCase()) + '</a></li>');
+                        } else {
+                            $("#roomContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson.slice(1).toLowerCase()) + '</a></li>');
+                        }
+                    }
+                 }
                 }
             }
         });
     });
 
 }
-
-function getPersonInfo(person) {
-    console.log("Function called")
-    console.log(person);
-    console.log(person[0]);
-    
-}
-
-function populateInfo(person) {
+function populateInfo(obj) {
     console.log("Function Called");
     /* Shows the info of the person or place sitting there. 
     The parameter person is a JavaScript Object in the form of [{First: first, Last:last, Location: location}]*/
-    var this_person = person[0];
-    $("#mySidenav").text("");
-    $("#mySidenav").append('<img id="personPhoto" style="width:100%; height:30%;" src="nopicture.jpg"></img> <div id="contactinfo"><h4 id="name">' + this_person.First + ' ' + this_person.Last + '</h4><h6 id="office">' + this_person.Location + '</h6><h6 id="position">' + this_person.Position + '</h6></div>');
+    var this_obj = obj[0];
+    // Reverse these attributes when back button is clicked
+    $("#infocard").css("visibility", 'visible');
+    $("#infocard").css("width", '100%');
+    $("#infocard").css("height", '100%');
+    $("#searchContainer").css("visibility", "hidden");
 
+    // Display Element and insert 
+    $("#infocard #contactinfo #name").text(this_obj.First + ' ' + this_obj.Last);
+    $("#contactinfo #office").text(this_obj.Location);
+    $("#contactinfo #position").text(this_obj.Position);
+    if (this_obj.First == "") {
+        $("#photo").attr("src", "roomphoto.jpg")
+    } else {
+        $("#photo").attr("src", "nopicture.jpg")
+    }
+   
 }
+
 
 $(document).ready(mapClick());
 $(document).ready(newSearch());

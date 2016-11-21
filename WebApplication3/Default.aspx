@@ -4,17 +4,21 @@
 
 <html lang="en">
 <head>
-    <title>Mapleaf Azure T1.3</title>
+    <title>Mapleaf Azure T1.5</title>
     <link rel="stylesheet" type="text/css" href="main_style.css">
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
         <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-
-        <ul class="nameContainer" id="myUL">
-            Please enter a name
-        </ul>
+        <input type="text" id="myInput" placeholder="Search for names..">
+        <div id="infocard" style="visibility: hidden; width: 0; height: 0;"><img id="photo" style="width:100%; height:30%;" src="nopicture.jpg" /><div id="contactinfo" style="margin: 0 auto; display: block;"><h4 id="name"></h4><h6 id="office"></h6><h6 id="position"></h6></div></div>
+        <div id="searchContainer">
+            <div style="font-family: Verdana;">Please enter a name</div>
+            <div class="myUL" id="nameContainer">
+            </div>
+            <div class="myUL" id="roomContainer">
+            </div>
+        </div>
     </div>
 
     <form runat="server">
@@ -3907,26 +3911,6 @@
         }
     </script>
 
-    <script>
-        function myFunction() {
-            // Declare variables
-            var input, filter, ul, li, a, i;
-            input = document.getElementById('myInput');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("myUL");
-            li = ul.getElementsByTagName('li');
-
-            // Loop through all list items, and hide those who don't match the search query
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none";
-                }
-            }
-        }
-    </script>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
