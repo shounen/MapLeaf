@@ -30,7 +30,7 @@ namespace WebApplication3
             SqlConnection sqlConnection1 = new SqlConnection("Server=tcp:udmserver1.database.windows.net,1433;Initial Catalog=6985FD;Persist Security Info=False;User ID=admin1;Password=udmserver1A;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             SqlCommand cmd = new SqlCommand();
             SqlDataReader reader;
-            if (query == "")
+            if (query == "" || query.Length < 2)
             {
                 return "[{}]";
             }

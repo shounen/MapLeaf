@@ -20,7 +20,7 @@ function mapClick() {
 		    data: JSON.stringify({ query: String(e.target.id), column: 'Office Number' }), // Check column name see if it matches
 		    dataType: 'json',
 		    success: function (data) {
-		        getPersonInfo(JSON.parse(data.d));
+		        populateInfo(JSON.parse(data.d));
 
 		    },
 		    error: function () { alert("HAHAHA")}
@@ -69,11 +69,14 @@ function newSearch() {
                     var cpstring = '[{Last: \'' + cp.Last + '\', First: \'' + cp.First + '\', Location: \'' + cp.Location + '\', Position: \'' + cp.Position + '\'}]';
                     if (currentPerson != "VACANT" || currentPerson != "VACENT" || currentPerson != "ASSIGNED IS" || currentPerson != "IS OPERATIONS") {
                         if (cp.First != "") {
+                            if (cp.Position == "") { var infoString = cp.First.charAt(0) + cp.First.slice(1).toLowerCase() + ' ' + cp.Last.charAt(0) + cp.Last.slice(1).toLowerCase() }
+                            else { var infoString = cp.First.charAt(0) + cp.First.slice(1).toLowerCase() + ' ' + cp.Last.charAt(0) + cp.Last.slice(1).toLowerCase(); + '<br /><i>' + cp.Position + '</i>'}
                             // if not a room
-                            $("#nameContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson.slice(1).toLowerCase()) + '</a></li>');
+                            $("#nameContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + infoString + '</a></li>');
                         } else {
+                            var infoString = cp.Last.charAt(0) + cp.Last.slice(1).toLowerCase();
                             // if is a room
-                            $("#roomContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson.slice(1).toLowerCase()) + '</a></li>');
+                            $("#roomContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + infoString + '</a></li>');
                         }
                     }
                  }
