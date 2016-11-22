@@ -1,7 +1,9 @@
 /*
 Backend for the Maple Leaf Map Web Application. This script will be responsible for creating an interactive map for the 2nd floor of the Maple Leaf building.
 
-This ffle will also be responsible for the search and onclick features of the web application.
+This file will also be responsible for the search and onclick features of the web application.
+
+God rest your soul.
 */
 $('.clickable').draggable();
 
@@ -67,8 +69,10 @@ function newSearch() {
                     var cpstring = '[{Last: \'' + cp.Last + '\', First: \'' + cp.First + '\', Location: \'' + cp.Location + '\', Position: \'' + cp.Position + '\'}]';
                     if (currentPerson != "VACANT" || currentPerson != "VACENT" || currentPerson != "ASSIGNED IS" || currentPerson != "IS OPERATIONS") {
                         if (cp.First != "") {
+                            // if not a room
                             $("#nameContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson.slice(1).toLowerCase()) + '</a></li>');
                         } else {
+                            // if is a room
                             $("#roomContainer").append('<li class="PersonInfo" onClick="populateInfo(' + cpstring + ')"><a href="#">' + (currentPerson.charAt(0) + currentPerson.slice(1).toLowerCase()) + '</a></li>');
                         }
                     }
@@ -91,6 +95,10 @@ function populateInfo(obj) {
     $("#searchContainer").css("visibility", "hidden");
 
     // Display Element and insert 
+    var elements = document.querySelectorAll('.closebtn');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.color = "black"
+    }
     $("#infocard #contactinfo #name").text(this_obj.First + ' ' + this_obj.Last);
     $("#contactinfo #office").text(this_obj.Location);
     $("#contactinfo #position").text(this_obj.Position);
@@ -101,6 +109,8 @@ function populateInfo(obj) {
     }
    
 }
+
+
 
 
 $(document).ready(mapClick());

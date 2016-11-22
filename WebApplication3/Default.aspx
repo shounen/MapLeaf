@@ -5,29 +5,30 @@
 <html lang="en">
 <head>
     <title>Mapleaf Azure T1.5</title>
-    <link rel="stylesheet" type="text/css" href="main_style.css">
+    <link href="css/main_style.css" rel="stylesheet" />
+
 </head>
 <body>
+    
     <div id="mySidenav" class="sidenav">
-        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        <img src="mapleleaf_logo_lr.jpg" width="578" height="50" />   
         <input type="text" id="myInput" placeholder="Search for names..">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Back</a>
         <div id="infocard" style="visibility: hidden; width: 0; height: 0;"><img id="photo" style="width:100%; height:30%;" src="nopicture.jpg" /><div id="contactinfo" style="margin: 0 auto; display: block;"><h4 id="name"></h4><h6 id="office"></h6><h6 id="position"></h6></div></div>
         <div id="searchContainer">
-            <div style="font-family: Verdana;">Please enter a name</div>
             <div class="myUL" id="nameContainer">
             </div>
             <div class="myUL" id="roomContainer">
             </div>
         </div>
     </div>
-
+       
     <form runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True">
         </asp:ScriptManager>
     </form>
 
     <div id="container">
-        <!-- <div id="openbutton"; style="font-size: 30px; color:white; cursor: pointer" onclick="openNav()">&#9776;</div> -->
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920.9 1080.1" style="enable-background: new 0 0 1920.9 1080.1;" xml:space="preserve" id="svg-id">
             <style type="text/css">
                 .st0 {
@@ -3905,10 +3906,17 @@
         function openNav() {
             document.getElementById("mySidenav").style.width = "500px";
         }
-
+        
         function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
+            $("#infocard").css("visibility", 'hidden');
+            $("#infocard").css("width", '0%');
+            $("#infocard").css("height", '0%');
+            $("#searchContainer").css("visibility", "visible");
+            var elements = document.querySelectorAll('.closebtn');
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.color = "transparent"
+            }
+        } 
     </script>
 
 
