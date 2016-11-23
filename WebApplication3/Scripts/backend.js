@@ -59,7 +59,7 @@ function newSearch() {
             url: "Default.aspx/querySQL",
             type: "POST",
             contentType: 'application/json',
-            data: JSON.stringify({ query: document.getElementById('myInput').value, column: 'Last Name' }),
+            data: JSON.stringify({ query: document.getElementById('myInput').value, column: 'First Name' }),
             dataType: 'json',
             success: function (data) {
                 // Heres is where we actually populate the div element with all the data

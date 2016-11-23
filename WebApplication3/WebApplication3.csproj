@@ -215,6 +215,12 @@
     <Content Include="EmployeeData.csv" />
     <None Include="Properties\PublishProfiles\Mapleaf.pubxml" />
     <None Include="Properties\PublishProfiles\Mapleaf1 %2810%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Mapleaf1 %2811%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Mapleaf1 %2812%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Mapleaf1 %2813%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Mapleaf1 %2814%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Mapleaf1 %2815%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Mapleaf1 %2816%29.pubxml" />
     <None Include="Properties\PublishProfiles\Mapleaf1 %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\Mapleaf1 %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\Mapleaf1 %284%29.pubxml" />
@@ -232,6 +238,7 @@
     <Content Include="mapleleaflogo.png" />
     <Content Include="mapleleaf_logo_lr.jpg" />
     <Content Include="nopicture.jpg" />
+    <Content Include="roomphoto.jpg" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\backend.js" />
