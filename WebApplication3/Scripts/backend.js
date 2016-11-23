@@ -21,6 +21,12 @@ function mapClick() {
 		    dataType: 'json',
 		    success: function (data) {
 		        populateInfo(JSON.parse(data.d));
+		        x_val = e.target.x;
+		        y_val = e.target.y;
+		        // Add indicator to where the mouse was clicked
+		        $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
+		        var l = document.getElementById("locator");
+		        
 
 		    },
 		    error: function () { alert("HAHAHA")}
@@ -67,7 +73,8 @@ function newSearch() {
                     var cp = jsondoc[i];
                     var currentPerson = jsondoc[i].Last;
                     var cpstring = '[{Last: \'' + cp.Last + '\', First: \'' + cp.First + '\', Location: \'' + cp.Location + '\', Position: \'' + cp.Position + '\'}]';
-                    if (currentPerson != "VACANT" || currentPerson != "VACENT" || currentPerson != "ASSIGNED IS" || currentPerson != "IS OPERATIONS") {
+                    console.log(currentPerson);
+                    if (currentPerson != "VACANT") {
                         if (cp.First != "") {
                             if (cp.Position == "") { var infoString = cp.First.charAt(0) + cp.First.slice(1).toLowerCase() + ' ' + cp.Last.charAt(0) + cp.Last.slice(1).toLowerCase() }
                             else { var infoString = cp.First.charAt(0) + cp.First.slice(1).toLowerCase() + ' ' + cp.Last.charAt(0) + cp.Last.slice(1).toLowerCase(); + '<br /><i>' + cp.Position + '</i>'}

@@ -198,6 +198,7 @@
         cursor: -webkit-grab;
         height: 100%;
         width: 100%;
+        position: relative;
     }
         /* When grabbing the image*/
         #svg-id:active {
@@ -205,6 +206,10 @@
             cursor: -moz-grabbing;
             cursor: -webkit-grabbing;
         }
+
+    #locator {
+        position: absolute;
+    }
 
     .navbar {
         background: #3b5998;

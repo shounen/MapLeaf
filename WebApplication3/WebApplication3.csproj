@@ -225,6 +225,7 @@
     <None Include="Properties\PublishProfiles\Mapleaf1 %289%29.pubxml" />
     <None Include="Properties\PublishProfiles\Mapleaf1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Locator-Icon_06.png" />
     <Content Include="M1Floor.png" />
     <Content Include="M1Floor.svg" />
     <Content Include="main_style.css" />
