@@ -35,8 +35,10 @@
     </form>
 
     <div id="container" style="position: relative;">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920.9 1080.1" style="enable-background: new 0 0 1920.9 1080.1;" xml:space="preserve" id="svg-id">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" viewBox="0 0 1920.9 1080.1" style="enable-background: new 0 0 1920.9 1080.1;" xml:space="preserve" id="svg-id">
             <style type="text/css">
+                .st100{fill: #F15A24; stroke: #F15A24; stroke-miterlimit: 10; }
+	            .st101{fill: #C1272D; stroke: #C1272D; stroke-miterlimit: 10; }
                 .st0 {
                     display: none;
                     opacity: 0.52;
@@ -3290,10 +3292,7 @@
 
                 <rect x="669.5" y="661.2" id="2337A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 662.8315 -283.9424)" class="st22 os" width="24.2" height="28.4"></rect>
 
-                <rect x="645.8" y="628" id="2339B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 633.162 -277.2419)" class="st22 os" width="25.3" height="28.4"></rect>
-
-                <rect x="628.6" y="610.7" id="2339A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 616.1434 -269.7396)" class="st22 os" width="24.2" height="28.4"></rect>
-
+               
                 <rect x="661.7" y="554.2" id="2324" transform="matrix(0.7176 0.6964 -0.6964 0.7176 595.3386 -311.0705)" class="st22 os" width="39.2" height="49"></rect>
 
                 <rect x="689.5" y="581.2" id="2325" transform="matrix(0.7176 0.6964 -0.6964 0.7176 622.0036 -322.8251)" class="st22 os" width="39.2" height="49"></rect>
@@ -3665,7 +3664,6 @@
                 <rect x="811.4" y="368.7" id="2410D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 496.5037 -468.3198)" class="st22 os" width="28.8" height="18.9"></rect>
                 <path class="st22 os" d="M772.6,364.6L751,386.9l-35.5-34.5l27.1-28l26.7,25.9C769.3,350.4,765.3,358.6,772.6,364.6z"></path>
                 <path class="st22 os" d="M950.7,263.3L914.2,284c-9.4-4.3-14.3,5.3-14.3,5.3l3.1,3l-4.4,4.5l-67.3-65.3l42.2-43.5L950.7,263.3z"></path>
-                <path class="st22 os" id="2406" d="M772.6,364.6L751,386.9l-35.5-34.5l27.1-28l26.7,25.9C769.3,350.4,765.3,358.6,772.6,364.6z"></path>
 
                 <rect x="760.8" y="365" id="2407" transform="matrix(0.7176 0.6964 -0.6964 0.7176 487.2307 -432.1327)" class="st22 os" width="31.5" height="39.5"></rect>
 
@@ -3674,7 +3672,7 @@
                 <rect x="733.9" y="392.8" id="2404" transform="matrix(0.7176 0.6964 -0.6964 0.7176 499.0075 -405.5638)" class="st22 os" width="31.5" height="39.5"></rect>
 
                 <rect x="757.5" y="415.1" id="2405" transform="matrix(0.7176 0.6964 -0.6964 0.7176 520.9728 -415.2466)" class="st22 os" width="30.1" height="39.5"></rect>
-                <path class="st22 os" id="2403" d="M730.3,408.2l20.7-21.3l-35.5-34.5l-27.9,28.7l26,25.3C713.6,406.4,723.3,400.3,730.3,408.2z"></path>
+                
 
                 <rect x="696.6" y="422.9" id="2401C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 501.8491 -373.5819)" class="st22 os" width="30" height="18.3"></rect>
 
@@ -3849,9 +3847,9 @@
 
                 <rect x="978.6" y="520.9" transform="matrix(-0.9973 7.370273e-02 -7.370273e-02 -0.9973 2059.1746 1022.5465)" class="st22 os" width="64.3" height="56.7"></rect>
 
-                <rect x="729.3" y="330.1" transform="matrix(0.685 -0.7285 0.7285 0.685 -23.2064 656.9037)" class="st22 os" width="37.6" height="50.4"></rect>
+                <rect x="729.3" id="2406" y="330.1" transform="matrix(0.685 -0.7285 0.7285 0.685 -23.2064 656.9037)" class="st22 os" width="37.6" height="50.4"></rect>
 
-                <rect x="700" y="359.2" transform="matrix(0.685 -0.7285 0.7285 0.685 -53.3013 645.4736)" class="st22 os" width="39.8" height="50.4"></rect>
+                <rect x="700" y="359.2" id="2403" transform="matrix(0.685 -0.7285 0.7285 0.685 -53.3013 645.4736)" class="st22 os" width="39.8" height="50.4"></rect>
                 <rect x="1244.8" y="329.5" class="st22 os" width="51.4" height="79.5"></rect>
 
                 <rect x="1213.5" y="462.1" transform="matrix(0.9997 -2.354528e-02 2.354528e-02 0.9997 -11.0703 29.4439)" class="st22 os" width="62.7" height="45.5"></rect>
@@ -3889,9 +3887,9 @@
             </g>
             <g id="Test_Cubicle">
 
-                <rect x="647.5" y="629.2" transform="matrix(0.7176 0.6964 -0.6964 0.7176 632.5362 -278.8591)" class="st22 os" width="25.3" height="22.8"></rect>
+                <rect x="647.5" y="629.2" id="2339B" transform="matrix(0.7176 0.6964 -0.6964 0.7176 632.5362 -278.8591)" class="st22 os" width="25.3" height="22.8"></rect>
 
-                <rect x="630.3" y="612" transform="matrix(0.7176 0.6964 -0.6964 0.7176 615.5205 -271.35)" class="st22 os" width="24.2" height="22.8"></rect>
+                <rect x="630.3" y="612" id="2339A" transform="matrix(0.7176 0.6964 -0.6964 0.7176 615.5205 -271.35)" class="st22 os" width="24.2" height="22.8"></rect>
 
                 <rect x="632.2" y="647.5" id="2339D" transform="matrix(0.7176 0.6964 -0.6964 0.7176 640.2609 -263.2985)" class="st22 os" width="25.3" height="20.8"></rect>
 

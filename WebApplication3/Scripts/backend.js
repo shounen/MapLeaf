@@ -24,10 +24,9 @@ function mapClick() {
 		        x_val = e.target.x;
 		        y_val = e.target.y;
 		        // Add indicator to where the mouse was clicked
-		        $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
-		        var l = document.getElementById("locator");
+		        // $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
 		        
-
+		        e.target.css('stroke', '#db1919')
 		    },
 		    error: function () { alert("HAHAHA")}
             
@@ -98,6 +97,7 @@ function populateInfo(obj) {
     /* Shows the info of the person or place sitting there. 
     The parameter person is a JavaScript Object in the form of [{First: first, Last:last, Location: location}]*/
     var this_obj = obj[0];
+    console.log(this_obj)
     // Reverse these attributes when back button is clicked
     $("#infocard").css("visibility", 'visible');
     $("#infocard").css("width", '100%');
