@@ -9,21 +9,23 @@
 
 </head>
 <body>
-    
+      <div class="bottomright">
+        <img src="MLF%20Logo.png" /> </div>
     <div id="mySidenav" class="sidenav">
         <!-- <img src="mapleleaf_logo_lr.jpg" width="50" height="50" /> -->
 
         <div id="infocard" style="visibility: hidden; width: 0; height: 0;"><div class="image" style="position: relative">
-            <a href="javascript:void(0)" onclick="closeNav()" style="position: absolute; top: 0; left: 0; color:black;">&#x2190;</a><img id="photo" style="width:100%; height:30%;" src="nopicture.jpg" /></div><div id="contactinfo" style="margin: 0 auto; display: block;"><h4 id="name"></h4><h6 id="office"></h6><h6 id="position"></h6></div></div>
+            <a href="javascript:void(0)" onclick="closeNav()" style="position: absolute; top: 0; left: 0; color:black;">&#x2190;</a><img id="photo" style="width:100%; height:30%;" src="nopicture.jpg" /></div>
+            <div id="contactinfo" style="margin: 0 auto; display: block;"><h1 id="name"></h1><h3 id="office"></h3><h3 id="position"></h3></div></div>
         <div id="searchContainer" style="height: 5%; border-width: 0;">
             <input type="text" id="myInput" placeholder="Please enter someones name" style="text-align: center; border-width: 0;">
-            <div class="myUL"><li><a href="#" style="background-color: aqua; border-width: 0;">People</a></li></div>
+            <div class="myUL"><li><a href="#" style="background-color: dimgrey; border-width: 0;">People</a></li></div>
             <div class="myUL" id="nameContainer"></div>
-            <div class="myUL"><li><a href="#" style="background-color: aqua; border-width: 0;">Rooms</a></li></div>
+            <div class="myUL"><li><a href="#" style="background-color: dimgrey; border-width: 0;">Rooms</a></li></div>
             <div class="myUL" id="roomContainer">
             </div>
 
-            <div class="myUL"><li><a href="#" style="background-color: aqua; border-width: 0;">Feedback</a></li></div>
+            <div class="myUL"><li><a href="http://www.mapleleaffoods.com/contact-us/" style="background-color: dimgray; border-width: 0;">Feedback</a></li></div>
             <div class="myUL" id="fbContainer">
             </div>
         </div>
@@ -3903,7 +3905,6 @@
             </g>
         </svg>
     </div>
-
 
 
     <script>

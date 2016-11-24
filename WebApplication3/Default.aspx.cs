@@ -38,7 +38,7 @@ namespace WebApplication3
             cmd.CommandType = CommandType.Text;
             cmd.Connection = sqlConnection1;
 
-            sqlConnection1.Open();
+           sqlConnection1.Open();
 
             reader = cmd.ExecuteReader();
             while (reader.Read())

@@ -14,7 +14,7 @@
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: #0875fb; /*  Blue*/
+        background-color: #2c2c2c; /*  Grey*/
         overflow-x: hidden; /* Disable horizontal scroll */
        
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -88,6 +88,12 @@
         margin: 0 auto;
         height: 100%;
        
+    }
+    #infocard {
+        font: Helvetica;
+        color:white;
+        font-family:Arial, Helvetica, sans-serif;
+
     }
 
     .myUL {
@@ -190,6 +196,11 @@
         background: #3b5998;
         border: #3b5998;
     }
+    .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
 
    /* Let's get this party started */
 ::-webkit-scrollbar {

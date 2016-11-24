@@ -9,28 +9,30 @@ $('.clickable').draggable();
 
 function mapClick() {
     $('.os').on("click", function (e) {
-		// block the default hred from the imagemap area
-		e.preventDefault();
-		// Get the office number of what was clicked
+        // block the default hred from the imagemap area
+        e.preventDefault();
+        // Get the office number of what was clicked
         // call server and get the JSON string for that office number
-		$.ajax({
-		    url: "Default.aspx/querySQL",
-		    type: "POST",
-		    contentType: "application/JSON",
-		    data: JSON.stringify({ query: String(e.target.id), column: 'Office Number' }), // Check column name see if it matches
-		    dataType: 'json',
-		    success: function (data) {
-		        populateInfo(JSON.parse(data.d));
-		        x_val = e.target.x;
-		        y_val = e.target.y;
-		        // Add indicator to where the mouse was clicked
-		        // $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
-		        
-		        e.target.css('stroke', '#db1919')
-		    },
-		    error: function () { alert("HAHAHA")}
-            
-		});
+        $.ajax({
+            url: "Default.aspx/querySQL",
+            type: "POST",
+            contentType: "application/JSON",
+            data: JSON.stringify({ query: String(e.target.id), column: 'Office Number' }), // Check column name see if it matches
+            dataType: 'json',
+            success: function (data) {
+                populateInfo(JSON.parse(data.d));
+                x_val = e.target.x;
+                y_val = e.target.y;
+                // Add indicator to where the mouse was clicked
+                // $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
+
+                e.target.css('stroke', '#db1919')
+            },
+            error: function () {
+                alert("Error404")
+
+            }
+        });
 	});
 }
 
