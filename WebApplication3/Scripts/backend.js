@@ -20,16 +20,9 @@ function mapClick() {
             data: JSON.stringify({ query: String(e.target.id), column: 'Office Number' }), // Check column name see if it matches
             dataType: 'json',
             success: function (data) {
+                
                 populateInfo(JSON.parse(data.d));
-                x_val = e.target.x.animVal.value
-                y_val = e.target.y.animVal.value
-                console.log(x_val)
-                console.log(e.target.x)
-                // Add indicator to where the mouse was clicked
-                // $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
-                $("#Test_Cubicle").append(`<circle cx="500" cy="500" class="st101" r="27" id="indi"></circle>`)
-               // $("#indi").attr('cx', x_val);
-               //  $("#indi").attr('cy', y_val);
+
             },
             error: function () {
                 alert("Error404")
@@ -44,14 +37,15 @@ function zoomIn() {
         panZoomInstance = svgPanZoom('#svg-id', {
             zoomEnabled: true,
             controlIconsEnabled: false,
-            fit: true,
+            fit: false,
+            maxzoom: 100000000,
             center: true,
             minZoom: 0.1,
             dblClickZoomEnabled: false
         });
 
         // zoom out
-        panZoomInstance.zoom(1.5)
+        panZoomInstance.zoom(1)
 
 }
 
@@ -122,7 +116,22 @@ function populateInfo(obj) {
     } else {
         $("#photo").attr("src", "nopicture.jpg")
     }
-   
+    console.log(this_obj.Location);
+    x_val = $('#' + this_obj.Location).attr("x")
+    y_val = $('#' + this_obj.Location).attr("y")
+    console.log(x_val)
+    
+    $("#indi").remove();
+    // Add indicator to where the mouse was clicked
+    // $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
+    $("#Test_Cubicle").append('<circle cx="' + x_val + 10 + '" cy="' + y_val + 10 + '" class="st101" r="10" id="indi"></circle>')
+    // $("#indi").attr('cx', x_val);
+    //  $("#indi").attr('cy', y_val);
+    $("#container").html($("#container").html());
+    // $("#body").html($("#body").html());
+    mapClick();
+    newSearch();
+    zoomIn();
 }
 
 
