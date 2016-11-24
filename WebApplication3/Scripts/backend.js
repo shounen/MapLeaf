@@ -21,12 +21,15 @@ function mapClick() {
             dataType: 'json',
             success: function (data) {
                 populateInfo(JSON.parse(data.d));
-                x_val = e.target.x;
-                y_val = e.target.y;
+                x_val = e.target.x.animVal.value
+                y_val = e.target.y.animVal.value
+                console.log(x_val)
+                console.log(e.target.x)
                 // Add indicator to where the mouse was clicked
                 // $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
-
-                e.target.css('stroke', '#db1919')
+                $("#Test_Cubicle").append(`<circle cx="500" cy="500" class="st101" r="27" id="indi"></circle>`)
+               // $("#indi").attr('cx', x_val);
+               //  $("#indi").attr('cy', y_val);
             },
             error: function () {
                 alert("Error404")
