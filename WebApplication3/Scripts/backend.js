@@ -96,7 +96,7 @@ function populateInfo(obj) {
     /* Shows the info of the person or place sitting there. 
     The parameter person is a JavaScript Object in the form of [{First: first, Last:last, Location: location}]*/
     var this_obj = obj[0];
-    console.log(this_obj)
+    // console.log(this_obj)
     // Reverse these attributes when back button is clicked
     $("#infocard").css("visibility", 'visible');
     $("#infocard").css("width", '100%');
@@ -116,15 +116,20 @@ function populateInfo(obj) {
     } else {
         $("#photo").attr("src", "nopicture.jpg")
     }
-    console.log(this_obj.Location);
+    // console.log(this_obj.Location);
     x_val = $('#' + this_obj.Location).attr("x")
     y_val = $('#' + this_obj.Location).attr("y")
-    console.log(x_val)
+    w = $('#' + this_obj.Location).attr("width")/2
+    h = $('#' + this_obj.Location).attr("height")/2
+        
+    console.log(w);
+    console.log(h);
+    // console.log(x_val)
     
     $("#indi").remove();
     // Add indicator to where the mouse was clicked
     // $("#container").append('<img src="Locator-Icon_06.png" id="locator" />');
-    $("#Test_Cubicle").append('<circle cx="' + x_val + 10 + '" cy="' + y_val + 10 + '" class="st101" r="10" id="indi"></circle>')
+    $("#Test_Cubicle").append('<circle cx="' + (parseInt(x_val) + parseInt(w)) + '" cy="' + (parseInt(y_val) + parseInt(h)) + '" class="st101" r="10" id="indi"></circle>')
     // $("#indi").attr('cx', x_val);
     //  $("#indi").attr('cy', y_val);
     $("#container").html($("#container").html());
@@ -132,6 +137,9 @@ function populateInfo(obj) {
     mapClick();
     newSearch();
     zoomIn();
+    console.log((parseInt(x_val) + parseInt(w)))
+    
+
 }
 
 

@@ -4,13 +4,13 @@
 
 <html lang="en">
 <head>
-    <title>Mapleaf Azure T1.6</title>
+    <title>Mapleaf Azure T1.10</title>
     <link href="css/main_style.css" rel="stylesheet" />
 
 </head>
 <body>
       <div class="bottomright">
-        <img src="MLF%20Logo.png" /> </div>
+        <img src="MLF%20Logo.png" style="width: 130px; height: 130px;" /> </div>
     <div id="mySidenav" class="sidenav">
         <!-- <img src="mapleleaf_logo_lr.jpg" width="50" height="50" /> -->
 
@@ -3877,7 +3877,8 @@
                 <rect x="707.5" y="725.2" id="2335C" transform="matrix(0.7176 0.6964 -0.6964 0.7176 716.3347 -293.5372)" class="st22 os" width="25.3" height="22.8"></rect>
             
 
-               
+               
+
             </g>
         </svg>
     </div>
