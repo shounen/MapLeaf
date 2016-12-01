@@ -8,7 +8,8 @@
     <link href="css/main_style.css" rel="stylesheet" />
 
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
       <div class="bottomright">
         <img src="MLF%20Logo.png" style="width: 130px; height: 130px;" /> </div>
     <div id="mySidenav" class="sidenav">
@@ -3898,9 +3899,21 @@
             for (var i = 0; i < elements.length; i++) {
                 elements[i].style.color = "transparent"
             }
-        } 
+        }
     </script>
 
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
