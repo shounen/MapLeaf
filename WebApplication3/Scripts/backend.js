@@ -17,7 +17,7 @@ function mapClick() {
             url: "Default.aspx/querySQL",
             type: "POST",
             contentType: "application/JSON",
-            data: JSON.stringify({ query: String(e.target.id), column: 'Office Number' }), // Check column name see if it matches
+            data: JSON.stringify({ query: String(e.target.id), column: 'Office Number', column2: 'Office Number'}), // Check column name see if it matches
             dataType: 'json',
             success: function (data) {
                 
@@ -57,7 +57,7 @@ function newSearch() {
             url: "Default.aspx/querySQL",
             type: "POST",
             contentType: 'application/json',
-            data: JSON.stringify({ query: document.getElementById('myInput').value, column: 'First Name' }),
+            data: JSON.stringify({ query: document.getElementById('myInput').value, column: 'First Name', column2: 'Last Name'}),
             dataType: 'json',
             success: function (data) {
                 // Heres is where we actually populate the div element with all the data
@@ -65,14 +65,18 @@ function newSearch() {
                 // console.log(jsondoc)
                 if (jsondoc == "[{}]") {
                     $("#nameContainer").text("");
-                    $("roomContainer").text("");
+                    $("#roomContainer").text("");
+
                 } else {
-                for (var i = 0; i < jsondoc.length; i++) {
+                    $("#nameContainer").text("");
+                    $("#roomContainer").text("");
+                    for (var i = 0; i < jsondoc.length; i++) {
+                        
                     var cp = jsondoc[i];
                     var currentPerson = jsondoc[i].Last;
                     var cpstring = '[{Last: \'' + cp.Last + '\', First: \'' + cp.First + '\', Location: \'' + cp.Location + '\', Position: \'' + cp.Position + '\'}]';
                     console.log(currentPerson);
-                    if (currentPerson != "VACANT") {
+                    if (currentPerson != "VACANT" && currentPerson != "VACENT" && currentPerson != "IS OPERATIONS") {
                         if (cp.First != "") {
                             if (cp.Position == "") { var infoString = cp.First.charAt(0) + cp.First.slice(1).toLowerCase() + ' ' + cp.Last.charAt(0) + cp.Last.slice(1).toLowerCase() }
                             else { var infoString = cp.First.charAt(0) + cp.First.slice(1).toLowerCase() + ' ' + cp.Last.charAt(0) + cp.Last.slice(1).toLowerCase(); + '<br /><i>' + cp.Position + '</i>'}
@@ -91,6 +95,7 @@ function newSearch() {
     });
 
 }
+
 function populateInfo(obj) {
     console.log("Function Called");
     /* Shows the info of the person or place sitting there. 

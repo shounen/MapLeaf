@@ -23,7 +23,7 @@ namespace WebApplication3
 
         
         [WebMethod]
-        public static string querySQL(string query, string column)
+        public static string querySQL(string query, string column, string column2)
         {
             List<Person> employees = new List<Person>();
             
@@ -34,7 +34,7 @@ namespace WebApplication3
             {
                 return "[{}]";
             }
-            cmd.CommandText = "Select * from dbo.EmployeeData where [" + column +"] like '%" + query + "%'";
+            cmd.CommandText = "Select * from dbo.EmployeeData where [" + column +"] like '%" + query + "%' or [" + column2 + "] like '%" + query + "%'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = sqlConnection1;
 
