@@ -26,7 +26,7 @@ Please contact Maple Leaf Foods HQ (Mississauga) for the process of pull request
 ## Authors 
 
 * Marie Wang (University of Waterloo)
-* Daniel Anania (Univserity of Waterloo)
+* Daniel Anania (University of Waterloo)
 * [O|U]m[a|e]r Nawed (University of Toronto)
 * Candice Ngo
 
